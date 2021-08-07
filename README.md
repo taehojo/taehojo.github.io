@@ -20,4 +20,4 @@
 - [쉽게 이해하는 오토인코더](/deeplearning-for-everyone/auto-encoder.html) 
 
 ### The license
-Copyright: Taeho Jo (taeho@gmail.com)
+Copyright: Taeho Jo (taehjo@gmail.com)

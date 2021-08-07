@@ -6,7 +6,9 @@ sort: 3
 
 <br/>
 
-> 이 글은 2021년 7월 22일, medRxiv에 업로드된  **Taeho Jo et al. Deep learning-based identification of genetic variants: Application to Alzheimer’s disease classification** 논문을 옮긴 것입니다.   
+> **질문**: 딥러닝으로 데이터 전처리 없이 질병을 유발하는 특정 변이를 찾아 낼 수 있을까? <br/>
+>
+> **논문의 결론**:  3단계로 나뉘어진 알고리즘으로 유전 변이를 찾는데 성공하였고, 이를 알츠하이머 병의 진단에 적용해서 유용성을 확인하였다.  
 
 <br/>
 
@@ -211,6 +213,8 @@ In summary, our novel deep learning-based approach can identify AD-related SNPs 
 [![Facebook](https://img.shields.io/badge/facebook-taehojo-blue)](https://facebook.com/taehojo)
 [![IU](https://img.shields.io/badge/IU-medicine-red)](https://medicine.iu.edu/faculty/41882/jo-taeho)
 <br/><br/>
+
+> 이 글은 2021년 7월 22일, medRxiv에 업로드된  **Taeho Jo et al. Deep learning-based identification of genetic variants: Application to Alzheimer’s disease classification** 논문을 옮긴 것입니다.   
 
 [논문 바로가기](https://www.medrxiv.org/content/10.1101/2021.07.19.21260789v1)
 

@@ -6,19 +6,15 @@ sort: 2
 
 <br/>
 
-> 이 글은 2020년 12월 28일, BMC Bioinformatics에 게재된  **Taeho Jo et al. Deep learning detection of informative features in tau PET for Alzheimer’s disease classification** 논문을 옮긴 것입니다. 
+> **질문**: 딥러닝으로 알츠하이머 병의 원인 단백질이 축적되는 위치를 파악할 수 있을까? <br/>
 >
-> <details>
-> <summary>논문 인용 하기</summary>
-> <br>
-> Jo, Taeho, et al. "Deep learning detection of informative features in tau PET for Alzheimer’s disease classification." BMC bioinformatics 21.21 (2020): 1-13.
-> </details>
+> **논문의 결론**:  XAI기법으로 타우 단백질이 알츠하이머로 발병되는 과정에서 축적되는 위치를 파악할 수 있으며, 이 정보를 가지고 알츠하이머 병 환자를 90.8%의 정확도로 예측할 수 있다.  
 
 <br/>
 
 ## **딥러닝을 이용한 알츠하이머 원인 단백질 추적**
 
-**Deep learning detection of informative features in tau PET for Alzheimer’s disease classification** <br/>
+<br/>**Deep learning detection of informative features in tau PET for Alzheimer’s disease classification** <br/>
 Taeho Jo, Kwangsik Nho, Shannon L. Risacher and Andrew J. Saykin
 <br/><br/>
 
@@ -183,7 +179,17 @@ Deep learning can be used to classify tau PET images from AD patients versus con
 [![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
 [![Facebook](https://img.shields.io/badge/facebook-taehojo-blue)](https://facebook.com/taehojo)
 [![IU](https://img.shields.io/badge/IU-medicine-red)](https://medicine.iu.edu/faculty/41882/jo-taeho)
-<br/><br/>
+<br/>
+
+<br/>
+
+> 이 글은 2020년 12월 28일, BMC Bioinformatics에 게재된  **Taeho Jo et al. Deep learning detection of informative features in tau PET for Alzheimer’s disease classification** 논문을 옮긴 것입니다. 
+>
+> <details>
+> <summary>논문 인용 하기</summary>
+> <br>
+> Jo, Taeho, et al. "Deep learning detection of informative features in tau PET for Alzheimer’s disease classification." BMC bioinformatics 21.21 (2020): 1-13.
+> </details>
 
 [논문 바로가기](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03848-0)
 

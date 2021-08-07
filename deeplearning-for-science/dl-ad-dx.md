@@ -6,19 +6,15 @@ sort: 1
 
 <br/>
 
-> 이 글은 2019년 8월 20일, Frontiers in Aging Neuroscience에 게재된  **Taeho Jo et al. Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data** 논문을 옮긴 것입니다. 
+> **질문**: 딥러닝을 이용하면 뇌 영상사진만보고 알츠하이머병 환자임을 맞출수 있을까? <br/>
 >
-> <details>
-><summary>논문 인용 하기 </summary>
-><br>
->Jo, Taeho, Kwangsik Nho, and Andrew J. Saykin. "Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data." Frontiers in aging neuroscience 11 (2019): 220.
-></details>
+> **논문의 결과**:  peer 리뷰를 통과한 16개의 논문을 조사한 결과 최고 98.8%까지 맞추었다. 
 
 <br/>
 
 ## **딥러닝을 이용한 알츠하이머 병의 진단** 
 
-**Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data** <br/>
+<br/>**Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data** <br/>
 Taeho Jo*, Kwangsik Nho and Andrew J. Saykin
 <br/><br/>
 
@@ -236,6 +232,15 @@ AD research using deep learning is still evolving to achieve better performance 
 [![IU](https://img.shields.io/badge/IU-medicine-red)](https://medicine.iu.edu/faculty/41882/jo-taeho)
 <br/><br/>
 
+> 이 글은 2019년 8월 20일, Frontiers in Aging Neuroscience에 게재된  **Taeho Jo et al. Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data** 논문을 옮긴 것입니다. 
+>
+> <details>
+> <summary>논문 인용 하기 </summary>
+> <br>
+> Jo, Taeho, Kwangsik Nho, and Andrew J. Saykin. "Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data." Frontiers in aging neuroscience 11 (2019): 220.
+> </details>
+
 [논문 바로가기](https://www.frontiersin.org/articles/10.3389/fnagi.2019.00220/full)
 
 <br/>
+

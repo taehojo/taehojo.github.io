@@ -1,100 +1,23 @@
-# jekyll-rtd-theme
+# 딥러닝과 생명과학
 
-![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=develop)
-![jsDelivr](https://data.jsdelivr.com/v1/package/gh/rundocs/jekyll-rtd-theme/badge)
+딥러닝을 공부하고 딥러닝이 적용된 사례를 연구하는 페이지입니다. 
+<br/><br/> 
+[![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
+[![Facebook](https://img.shields.io/badge/facebook-taehojo-blue)](https://facebook.com/taehojo)
+[![IU](https://img.shields.io/badge/IU-medicine-red)](https://medicine.iu.edu/faculty/41882/jo-taeho)
+## 알파폴드 스터디
+-  [알파폴드 리뷰와 해석](/alphafold/alphafold1.html) 
+-  [알파폴드2 논문 스터디](/alphafold/alphafold2.html) 
 
-Just another documentation theme compatible with GitHub Pages
+## 딥러닝과 생명과학
+- [딥러닝과 알츠하이머 진단](/deeplearning-for-science/dl-ad-dx.html) 
+- [딥러닝과 알츠하이머 원인 단백질 추적](/deeplearning-for-science/dl-tau.html) 
+- [딥러닝과 유전자](/deeplearning-for-science/dl-genetic.html) 
 
-## What it does?
+## 모두의 딥러닝 교실
+- [쉽게 이해하는 자연어 처리](/deeplearning-for-everyone/nlp.html) 
+- [쉽게 이해하는 GAN](/deeplearning-for-everyone/gan.html) 
+- [쉽게 이해하는 오토인코더](/deeplearning-for-everyone/auto-encoder.html) 
 
-This theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphinx_rtd_theme) and refactored with:
-
-- [@primer/css](https://github.com/primer/css)
-- [github-pages](https://github.com/github/pages-gem) ([dependency versions](https://pages.github.com/versions/))
-
-## Quick start
-
-```yml
-remote_theme: rundocs/jekyll-rtd-theme
-```
-
-You can [generate](https://github.com/rundocs/starter-slim/generate) with the same files and folders from [rundocs/starter-slim](https://github.com/rundocs/starter-slim/)
-
-## Usage
-
-Documentation that can guide how to create with Github pages, please refer to [rundocs.io](https://rundocs.io) for details
-
-## Features
-
-- Shortcodes (Toasts card, mermaid)
-- Pages Plugins (emoji, gist, avatar, mentions)
-- Auto generate sidebar
-- [Attribute List Definitions](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions) (Primer/css utilities, Font Awesome 4)
-- Service worker (caches)
-- SEO (404, robots.txt, sitemap.xml)
-- Canonical Link (Open Graph, Twitter Card, Schema data)
-
-## Options
-
-| name          | default value        | description       |
-| ------------- | -------------------- | ----------------- |
-| `title`       | repo name            |                   |
-| `description` | repo description     |                   |
-| `url`         | user domain or cname |                   |
-| `baseurl`     | repo name            |                   |
-| `lang`        | `en`                 |                   |
-| `direction`   | `auto`               | `ltr` or `rtl`    |
-| `highlighter` | `rouge`              | Cannot be changed |
-
-```yml
-# folders sort
-readme_index:
-  with_frontmatter: true
-
-meta:
-  key1: value1
-  key2: value2
-  .
-  .
-  .
-
-google:
-  gtag:
-  adsense:
-
-mathjax: # this will prased to json, default: {}
-
-mermaid:
-  custom:     # mermaid link
-  initialize: # this will prased to json, default: {}
-
-scss:   # also _includes/extra/styles.scss
-script: # also _includes/extra/script.js
-
-translate:
-  # shortcodes
-  danger:
-  note:
-  tip:
-  warning:
-  # 404
-  not_found:
-  # copyright
-  revision:
-  # search
-  searching:
-  search:
-  search_docs:
-  search_results:
-  search_results_found: # the "#" in this translate will replaced with results size!
-  search_results_not_found:
-
-plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
-```
-
-## The license
-
-The theme is available as open source under the terms of the MIT License
+### The license
+Copyright: Taeho Jo (taeho@gmail.com)

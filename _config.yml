@@ -1,31 +1,15 @@
 title: 딥러닝과 생명과학
+author: 조태호
+email: taehjo@gmail.com
 description: Deep learning Study, Deep learning in Science, Alphafold study
 
-theme: null
-
-# debug:
-#   compress: true
-#   dist: false
-#   shortcodes: true
+remote_theme: rundocs/jekyll-rtd-theme
 
 readme_index:
   with_frontmatter: true
 
 plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
-  - jekyll-remote-theme
-exclude:
-  - Makefile
-  - CNAME
-  - LICENSE
-  - update.sh
-  - Gemfile
-  - Gemfile.lock
-  - requirements.txt
-  - node_modules
-  - package.json
-  - package-lock.json
-  - webpack.config.js
-  - jekyll-rtd-theme.gemspec
+  - github-pages
+
+# Google Analytics
+google_analytics: UA-204303332-1

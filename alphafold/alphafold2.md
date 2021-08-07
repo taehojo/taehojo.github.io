@@ -31,13 +31,13 @@ HHblits를 이용해서 UniRef90, MGnify clusters, BFD를 검색하는 방식을
 필요한 정보를 추가하는 Extra MSA Stack(Figure 2-③), Evoformer Stack(Figure 2-④)과정이 있다는 것입니다. 이를 위해 입력 시퀀스로 부터 얻은 다중 시퀀스 정렬(MSA) 과 템플릿 구조를 Pair representation(Figure 2-⑤)과 MSA representation(Figure 2-⑥)으로 통합해 다음 단계를 준비합니다.
 
 많은 입력 데이터를 가지기 때문에, 이 사전 처리 과정을 수차례 반복하고, 여러 버전의 Pair representation과 MSA representation을 만들어 평균값을 구해 다음 단계로 보내며, self-destination이라는 방법을 사용해서 기존의 훈련 데이터이외의 pdb 파일을 훈련에 포함했다고 합니다. 즉, 현재 구조가 알려진 모든 pdb파일을 훈련 데이터로 사용하고, 여기에 구조가 알려지지 않은
-시퀀스로 약 300,000여개의 구조를 예측한 후 이중 높은 정밀도로 예측했다고 판단되어 지는 것을 다시 훈련 데이터로 사용하는 방법을 써서 학습데이터의 확장을 가능하게 했습니다.
+시퀀스로 약 300,000여개의 구조를 예측한 후 이중 높은 정밀도로 예측했다고 판단되어 지는 것을 다시 훈련 데이터로 사용하는 방법을 써서 학습데이터를 확장했습니다.
 
 <br/>
 
 ## 2. Evoformer 
 
-Pair representation과 MSA representation이 만들어 지면 이 정보는 Evoformer단계로 넘어갑니다.
+Pair representation과 MSA representation이 만들어지면 이 정보는 Evoformer단계로 넘어갑니다.
 
 ![](./images/image-a3.png)
 
@@ -47,16 +47,15 @@ Pair representation과 MSA representation이 만들어 지면 이 정보는 Evof
 
 48개의 모든 레이어에는 각각 개별 매개변수가 있으며 입력과 출력은 MSA representation과 Pair representation입니다.
 
-Evoformer 안에는 두개의 흐름이 있습니다. 하나는 MSA representation이 입력되어 진행되는 흐름이고 Figure 상에서 위쪽의 흐름입니다(Figure 3-②)이고 또 하나는 Pair representation(Figure 3-③)의 정보 흐름입니다. 이 두 흐름의 아이디어는 기본적으로 단백질의 공간적, 진화적 관계에 대한 직접적인 추론을 가능하게 하는 정보를 교환하게 하는 것, 네트워크 내부에서 MSA representation 및 pair representation의 정보가 반복적으로 개선되게 하는 것입니다. 
+Evoformer 안에는 두개의 흐름이 있는데, 하나는 MSA representation이 입력되어 진행되는 흐름으로 Figure 3상에서 위쪽의 흐름입니다(Figure 3-②). 또 하나는 Pair representation(Figure 3-③)의 정보 흐름입니다. 이 두 흐름의 아이디어는 기본적으로 단백질의 공간적, 진화적 관계에 대한 직접적인 추론을 가능하게 하는 정보를 교환하게 하는 것, 네트워크 내부에서 MSA representation 및 pair representation의 정보가 반복적으로 개선되게 하는 것입니다. 
 
-예를 들어 특정 단백질에 대한 mutation의 evolutionary trajectory에 대한 정보를 포함하는 MSA의 정보가 조금 더 정확해 지려면 처리 중인 구조에 대해 알아야 하는데, 이 정보를 Pair representation을 통해 얻습니다. Pair representation의 정보가 MSA 스택으로 흐르도록 하고 (Figure 3-④) MSA representation 흐름 점차 Pair representation의 업데이트를 가능하게 하기 위해 MSA쪽 흐름으로 다시 이동합니다(Figure 3-⑤). 즉, 두 가지 정보 흐름은
-입력 단백질에 대한 진화적 퍼즐을 풀기 위해 함께 상호 작용하게 되는 구조입니다. 또한 관련 없는 mutual information 이나 pseudolikelihood등의 pairwise co-evolution features들이 무시됨으로써 더 많은 정보를 MSA에서 얻는 구조입니다.
+예를 들어 특정 단백질에 대한 mutation의 evolutionary trajectory에 대한 정보를 포함하는 MSA의 정보가 조금 더 정확해 지려면 처리 중인 구조에 대해 알아야 하는데, 이 정보를 Pair representation을 통해 얻습니다. Pair representation의 정보가 MSA 스택으로 흐르도록 하고 (Figure 3-④) MSA representation 흐름은 점차 Pair representation쪽으로 재차 이동합니다(Figure 3-⑤). 즉, 두 가지 정보 흐름은 입력 단백질에 대한 진화적 퍼즐을 풀기 위해 함께 상호 작용하게 되는 구조입니다. 관련 없는 mutual information 이나 pseudolikelihood등의 pairwise co-evolution features들이 이 과정을 통해 무시됨으로써 더 나은 정보를 MSA에서 얻는 구조입니다.
 
 <br/>
 
 ## 3. Structure module 
 
-Evoformer단계에서 정보가 만들어 지면 이를 protein geometry의 구체적인 3차원 좌표로 변환하는 Structure module단계로 넘어옵니다.
+Evoformer단계에서 만들어진 정보는 protein geometry의 구체적인 3차원 좌표로 변환하는 Structure module단계로 넘어옵니다.
 
 ![](./images/image-a4.png)
 

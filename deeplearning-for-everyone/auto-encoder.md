@@ -176,5 +176,5 @@ Copyright : **조태호**
 
 👉책으로 보시려면 [예스24](http://www.yes24.com/Product/Goods/86611190), [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&linkClass=&barcode=9791165210397), [인터파크](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=327029899)
 
-[<img src="https://github.com/taehojo/deeplearning-for-everyone-2nd/raw/master/book/book.jpg" alt="Title" style="zoom:67%;" />](http://www.yes24.com/Product/Goods/86611190)
+[<img src="https://github.com/taehojo/deeplearning-for-everyone-2nd/raw/master/book/book.jpg" alt="Title" style="zoom:60%;" />](http://www.yes24.com/Product/Goods/86611190)
 

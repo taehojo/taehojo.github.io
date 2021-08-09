@@ -82,35 +82,35 @@ Deep learning has laid the theoretical foundation for backpropagation, the appli
 
 We used ReLU as an activation function that underlies the deep learning algorithms used in our experiments.
 
- ![Q1](./images/genetic1.png)
+ ![Q1](./images/genetic1.PNG)
 
 ReLU, the most used activation function in the deep learning community, replaces the given value with zero if the value is < 0 and uses the given value if it is > 0. Thus, if the given value is greater than zero, the derivative becomes one, and the weight can be adjusted without vanishing the gradient to the first layer through the hidden layer. We used Adam as the optimization method. Adam, is currently the most popular optimization method for deep learning, as it takes advantage of momentum SGD55 and RMSprop, which are expressed as follows: Gt is the sum of the square of the modified gradient, and ε is a very small constant that prevents the equation from being divided by zero.
 
-  ![Q1](./images/genetic2.png)
+  ![Q1](./images/genetic2.PNG)
 
- ![Q1](./images/genetic3.png)
+ ![Q1](./images/genetic3.PNG)
 
 Backpropagation is used to calculate the initial error value from a given random weight using the least squares method and then to update the weight using a chain rule until the differential value becomes zero. Here, the differential value of zero means that the weight does not change when the gradient is subtracted from the previous weight.
 
- ![Q1](./images/genetic4.png)
+ ![Q1](./images/genetic4.PNG)
 
 If yo1 and yo2 are the output values of the output layer coming through the hidden layer, and the actual values of the given data are yt1 and yt2, the partial derivative of the error ErrorYo to the weight of the output layer can be calculated using the chain rule as follows: 
 
- ![Q1](./images/genetic5.png)
+ ![Q1](./images/genetic5.PNG)
 
 ​    The partial derivative of the error ErrorYo to the weight of the hidden layer can be calculated as follows:
 
- ![Q1](./images/genetic6.png)
+ ![Q1](./images/genetic6.PNG)
 
 Accordingly, the weight wh of the hidden layer is updated as follows:
 
- ![Q1](./images/genetic7.png)
+ ![Q1](./images/genetic7.PNG)
 
 **Calculation of phenotype influence score using deep learning**
 
 Prediction accuracy was calculated from deep learning applied to each fragment and converted to a z-score. The z-score follows a normal distribution with µ = 1 and σ = 0, under the hypothesis that there is no relationship between the variables in the population. Fragments with a z-score higher than the median were selected. An overlapping sliding window for the calculation of PIS is applied to these fragments (Figure 1). When the length of the fragment is w, the window is positioned w-1 from the first SNP of the fragment and moves by one SNP and stops at the last SNP of the fragment. Each region within the sliding window is divided into a train-test-validation set (60:20:20), and early stopping using a validation set is applied to prevent over-fitting. When the kth SNP is Sk, PIS is calculated as follows.
 
- ![Q1](./images/genetic8.png)
+ ![Q1](./images/genetic8.PNG)
 
 This sliding window is applied to all selected fragments, resulting in a PIS score for all SNPs.
 
@@ -120,7 +120,7 @@ This sliding window is applied to all selected fragments, resulting in a PIS sco
 
 We selected the top 100 to 10,000 SNPs based on the PIS. We used CNN, XG boost and Random Forest for the AD-CN classification with 10-fold cross validation. The CNN that we used consisted of convolution layer with a kernel size of 5, pooling lay with max-pool size of 2, fully connected layer of 64 nodes, and output layer with softmax activation function. XG Boost is a tree-based ensemble algorithm, one of popular implementations of gradient boosting. We trained XGboost using a “xgboost” package for python (https: //xgboost.readthedocs.io/). Random Forest is another ensemble learning method which uses many decision trees as its classifiers56, 57. We trained Random Forest using the scikit-learn package for python by setting the number of trees as 10 and the maximum depth of each tree as 3. 
 
- 
+ ![](./images/genetic9.PNG)
 
   **[Figure1] Framework to calculate phenotype influence scores of SNPs.** We divided the whole genome into 134,955 fragments, each with 40 SNPs. To calculate a phenotype influence score for each of the 40 SNPs included in one fragment, we used an overlapping window approach and CNN. w is the number of SNPs in the fragment and Sk is the kth SNP in the fragment.
 
@@ -138,56 +138,29 @@ Figure 5 showed LocusZoom plots62 for SNPs located at 300 kb upstream and downst
 
  
 
- 
+ ![Q1](./images/genetic10.PNG)
 
 **[Figure2] Selection of an optimal fragment size and an optimal deep learning algorithm.** In order to choose an optimal fragment size and an optimal deep learning algorithm, we calculated the mean accuracy and computation time for classification of AD using various fragment sizes containing 10 to 200 SNPs in the *APOE* region and several deep learning algorithms (CNN, LSTM, LSTM-CNN, and Attention). (A) Mean accuracy as a function of the fragment size. The highest accuracy for classification of AD was obtained with a fragment having 40 SNPs in CNN, LSTM-CNN and LSTM models. (B) Computation time as a function of the fragment size. The computation time of CNN and LSTM models are 5.9 seconds and 40.4 seconds, respectively. Especially the computation time of LSTM, LSTM-CNN, and Attention models sharply increases compared to CNN as the fragment contains more SNPs. 
 
  
 
- 
+ <img src="./images/genetic11.PNG" alt="Q1" style="zoom:80%;" />
 
 **[Figure 3] Manhattan plot of p-values of SNPs by our deep learning based approach in AD.** The X-axis shows SNP positions in the genome. The Y-axis shows -log10 of p-values. The genetic region including *APOE*, *APOC1*, and *TOMM40* genes is known as the strongest genetic risk locus for Alzheimer’s disease. The SNP with the smallest p-value was rs5117 in *APOC1* gene (P=1.04E-22). rs429358 in *APOE* has a p-value of 1.41E-16. Next identified genetic loci were located at *SNX14*, *SNX16*, *BICD1*, *WDR72*, and *GLT1D1* genes. 
 
  
 
- 
+ ![Q1](./images/genetic12.PNG)
 
 **[Figure 4] Results of classification of AD from CN.** The X-axis shows the number of top SNPs selected based on phenotype influence score for AD classification. The Y-axis shows the accuracy (A) and AUC (B) of 10-fold cross-validation. Our CNN-based approach yielded the highest accuracy and AUC of 75.02% and 0.8157, respectively, for 4,000 SNPs. In all cases, our CNN models outperformed two traditional machine learning models, Random Forest and XG Boost.
 
- 
-
-| **Top**   | **Random Forest** | **XG Boost** | **CNN**   |          |           |      |           |          |           |      |           |       |
-| --------- | ----------------- | ------------ | --------- | -------- | --------- | ---- | --------- | -------- | --------- | ---- | --------- | ----- |
-| Accuracy  | STD(±)            | AUC          | STD(±)    | Accuracy | STD(±)    | AUC  | STD(±)    | Accuracy | STD(±)    | AUC  | STD(±)    |       |
-| **100**   | 66.46             | 7.79         | 71.37     | 5.76     | 70.24     | 2.80 | 72.66     | 2.81     | 68.29     | 2.87 | 72.16     | 6.03  |
-| **200**   | 67.18             | 3.88         | 71.75     | 3.86     | 67.99     | 1.52 | 71.66     | 2.45     | 69.52     | 5.08 | 71.82     | 4.94  |
-| **300**   | 66.26             | 3.80         | 70.98     | 3.77     | 68.20     | 3.32 | 70.29     | 2.72     | 70.64     | 2.20 | 72.50     | 5.85  |
-| **400**   | 67.58             | 4.67         | 70.74     | 4.28     | 69.42     | 3.43 | 71.77     | 2.34     | 67.99     | 4.65 | 71.67     | 4.12  |
-| **500**   | 67.59             | 7.79         | 71.11     | 4.57     | 71.05     | 2.56 | 73.81     | 3.25     | 71.56     | 6.58 | 74.11     | 6.14  |
-| **1000**  | 68.31             | 5.22         | 71.78     | 4.45     | **73.08** | 2.89 | 74.07     | 3.72     | 73.91     | 3.87 | 77.41     | 4.44  |
-| **2000**  | **68.70**         | 3.13         | **73.72** | 4.24     | 72.48     | 2.61 | **75.09** | 3.65     | 73.29     | 2.77 | 77.82     | 4.09  |
-| **3000**  | 67.78             | 3.59         | 72.82     | 3.51     | 69.62     | 4.27 | 73.76     | 3.28     | 73.80     | 2.40 | 78.62     | 2.82  |
-| **4000**  | 68.19             | 4.69         | 72.63     | 4.69     | 71.15     | 4.07 | 74.12     | 3.68     | **75.02** | 3.17 | **81.57** | 2.61  |
-| **5000**  | 66.25             | 5.41         | 71.05     | 3.99     | 70.74     | 3.14 | 73.30     | 3.05     | 73.19     | 4.72 | 80.03     | 5.06  |
-| **10000** | 66.26             | 5.59         | 69.19     | 5.28     | 69.63     | 3.27 | 72.48     | 2.11     | 71.05     | 6.57 | 70.83     | 14.24 |
-
- 
+ ![Q1](./images/genetic13.PNG)
 
  **[Table 1] Results of classification of AD from CN.** The table shows the number of top SNPs selected based on phenotype influence score for AD classification and the accuracy and AUC of 10-fold cross-validation. Our CNN-based approach yielded the highest accuracy and AUC of 75.02% and 0.8157, respectively, for 4,000 SNPs. In all cases, our CNN models outperformed two traditional machine learning models, Random Forest and XG Boost.
 
- 
+ ![](./images/genetic14.PNG)
 
-​        
-
-​        (B)             
-
-​        (A)             
-
- 
-
-
-
-**[Figure5] LocusZoom plots for SNPs located at the 300 kb upstream and downstream region from the boundary \*APOE\* gene.** The horizontal axis is the location of SNPs and the vertical axis is -log10 of p-values. Each dot represents a SNP and the color represents the squared correlation coefficient (r2) with the most significant SNP. (A) shows p-values calculated using PLINK and the most significant SNP was rs429358 in *APOE*. (B) shows p-values calculated using our deep learning approach and the most significant SNP was rs5117 in *APOC1*. In (B), we can see linear increase on the left side of rs5117 and linear decrease on the right side of rs5117, which was different from PLINK results (A), which has no linear patterns. In addition, in (B), we can see three strongly correlated SNPs (r2>0.8) with rs5117 on the left side of rs5117 but no SNPs on the right side of rs5117.
+**[Figure5] LocusZoom plots for SNPs located at the 300 kb upstream and downstream region from the boundary APOE gene.** The horizontal axis is the location of SNPs and the vertical axis is -log10 of p-values. Each dot represents a SNP and the color represents the squared correlation coefficient (r2) with the most significant SNP. (A) shows p-values calculated using PLINK and the most significant SNP was rs429358 in *APOE*. (B) shows p-values calculated using our deep learning approach and the most significant SNP was rs5117 in *APOC1*. In (B), we can see linear increase on the left side of rs5117 and linear decrease on the right side of rs5117, which was different from PLINK results (A), which has no linear patterns. In addition, in (B), we can see three strongly correlated SNPs (r2>0.8) with rs5117 on the left side of rs5117 but no SNPs on the right side of rs5117.
 
  
 

@@ -17,7 +17,7 @@ sort: 1
 
 딥 러닝은 그동안 컴퓨터 비전 영역에서 복잡한 고차원 데이터의 구조를 식별하는 데 있어서 기존 기계 학습보다 뛰어난 성능을 보여주었습니다. 특히 최근 영상 의학 기술의 급속한 발전으로 대규모 의 신경 영상 데이터가 생성됨에 따라 알츠하이머병의 조기 진단 및 뇌 영상 이미지의 자동 분류에 딥 러닝을 적용하기 위한 노력이 계속되었습니다. 
 
-이 포스팅은 알츠하이머병의 진단을 위해 신경 영상 데이터에 딥러닝을 적용한 논문을 전수 조사한  "Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data" Frontiers in aging neuroscience (2019) 논문을 옮긴 것입니다. 
+이 포스팅은 알츠하이머병의 진단을 위해 신경 영상 데이터에 딥러닝을 적용한 논문을 전수 조사한  "Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data" Frontiers in aging neuroscience" (2019) 논문을 옮긴 것입니다. 
 
 > <details>
 > <summary>논문 인용 하기 </summary>

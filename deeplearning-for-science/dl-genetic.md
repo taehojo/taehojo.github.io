@@ -6,31 +6,35 @@ sort: 3
 
 <br/>
 
-> **질문**: 딥러닝으로 데이터 전처리 없이 질병을 유발하는 유전변이를 찾아 낼 수 있을까? <br/>
+> **질문**: 딥러닝으로 데이터 전처리 없이 whole genome 데이터를 사용해 질병을 유발하는 유전변이를 찾아 낼 수 있을까? <br/>
 >
-> **논문의 결론**:  3단계로 나뉘어진 알고리즘으로 유전변이를 찾는데 성공하였고, 이를 알츠하이머 병의 진단에 적용해서 유용성을 확인 하였습니다.  
+> **논문의 결론**:  3단계로 나뉘어진 딥러닝 프레임워크로 유전변이를 찾을 수 있었고, 이를 알츠하이머 병의 진단에 적용해서 유용성을 확인 하였습니다.  
 
 <br/>
 
 ## **딥러닝을 이용한 유전자 변이 예측 : 알츠하이머병 예측에 적용**
 
-**Deep learning-based identification of genetic variants: Application to Alzheimer’s disease classification**  <br/>
+딥러닝은 많은 과학 분야에 성공적으로 적용되었지만 유전체 데이터의 high-dimensionality 으로 인해 GWAS(Genome-wide Association Studies)에서는 사용되기가 어려웠습니다. 이 포스트는 이러한 문제를 극복하기 위하여 새로운 딥러닝 프레임워크를 제안한 "Deep learning-based identification of genetic variants: Application to Alzheimer’s disease classification"(2021) 논문을 옮긴 것입니다.   
 
-Taeho Jo, Kwangsik Nho, Paula Bice, and Andrew J. Saykin
+[논문 바로가기](https://www.medrxiv.org/content/10.1101/2021.07.19.21260789v1)
+
+이 방법은 질병 관련 단일 염기 다형성(Single nucleotide polymorphisms,SNP)을 식별하고 딥러닝을 사용해 유전 변이를 찾기 위한 3단계 접근을 제안합니다. 
+
+첫째, 전체 게놈을 겹치지 않는 최적 크기의 조각으로 나누는 것입니다. 그리고 각 조각에 대해 1D CNN(Convolutional Neural Network) 알고리즘을 실행하여 질병과 관련된 조각을 선택합니다. 
+
+둘째, 딥러닝과 overlapping 윈도우를 사용해 각 SNP별 표현형 영향 점수(Phenotype influence score, PIS)를 계산했습니다. 이를 통해 질병과 관련된 SNP를 식별합니다. 
+
+셋째, 이 정보를 실제 질병을 분류하는데 적용합니다. 우리의 방법을 인지적 정상(CN) 참가자와 알츠하이머병(AD) 진단을 받은 참가자의 whole genome 데이터(N=981, CN = 650, AD=331)에 적용했을때, 0.82의 AUC를 달성했습니다. 
+
+이 방법의 결과는 human intervention이 거의 없었음에도, 데이터 전처리를 동반한 기존의 기계 학습 접근 방식을 능가한 결과를 보였습니다. 이 방법은 알츠하이머 병의 유발에 관련된 것으로 잘 알려져 있는 *APOE* 영역을 최중요 유전자좌로 식별했으며,  *APOE*영역 이외에도 몇몇 새로운 후보 유전자를 알츠하이머 관련 유전자로 제안 했습니다. 
+
+이 논문에서 설명하는 딥러닝 기반 GWAS 접근 방식은 질병 관련 SNP를 식별하고 유전 변이를 찾으며, whole genome 데이터만으로 특정 질병의 여부를 판단하는 모델의 예를 보여주고 있습니다. 
 
  <br/>
 
-딥러닝은 많은 과학 분야에 성공적으로 적용되었지만 유전체 데이터의 high-dimensionality 으로 인해 GWAS(Genome-wide Association Studies)에서는 사용되기가 어려웠습니다. 이 문제를 극복하기 위해 우리는 질병 관련 단일 염기 다형성(Single nucleotide polymorphisms,SNP)을 식별하고 딥러닝을 사용해 유전 변이를 찾는 새로운 방법을 개발했습니다. 
+**Deep learning-based identification of genetic variants: Application to Alzheimer’s disease classification**  <br/>
 
-우리의 방법은 크게 3단계로 나누어 집니다. 
-
-첫째, 전체 게놈을 겹치지 않는 최적 크기의 조각으로 나눕니다. 그리고 각 조각에 대해 1D CNN(Convolutional Neural Network) 알고리즘을 실행하여 질병 관련 조각을 선택합니다. 
-
-둘째, 우리는 자체 알고리즘에 의해 각 SNP별 표현형 영향 점수(Phenotype influence score, PIS)를 계산했습니다. 이를 통해 질병과 관련된 SNP를 식별합니다. 
-
-셋째, 이 정보를 실제 질병을 분류하는데 적용합니다. 우리의 방법을 인지적 정상(CN) 참가자와 알츠하이머병(AD) 진단을 받은 참가자의 whole genome 데이터(N=981, CN = 650, AD=331)에 적용했을때, 0.82의 AUC를 달성했습니다. 이는 데이터 전처리를 동반한 기존의 기계 학습 접근 방식을 능가한 결과입니다. 우리의 접근 방식은 알츠하이머 병의 유발에 관련된 것으로 잘 알려져 있는 *APOE* 영역을 최중요 유전자좌로 식별했으며,  *APOE*영역 이외에도 몇몇 새로운 후보 유전자를 알츠하이머 관련 유전자로 제안 했습니다. 
-
-우리의 딥러닝 기반 GWAS 접근 방식은 질병 관련 SNP를 식별하고 유전 변이를 찾으며, whole genome 데이터만으로 특정 질병의 여부를 판단하는 모델을 보여주고 있습니다. 
+Taeho Jo, Kwangsik Nho, Paula Bice, and Andrew J. Saykin
 
  <br/>
 

@@ -14,28 +14,36 @@ sort: 1
 
 ## **딥러닝을 이용한 알츠하이머 병의 진단** 
 
-<br/>**Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data** <br/>
-Taeho Jo*, Kwangsik Nho and Andrew J. Saykin
-<br/><br/>
+<br/>
 
 
 딥 러닝은 그동안 컴퓨터 비전 영역에서 복잡한 고차원 데이터의 구조를 식별하는 데 있어서 기존 기계 학습보다 뛰어난 성능을 보여주었습니다. 특히 최근 영상 의학 기술의 급속한 발전으로 대규모 의 신경 영상 데이터가 생성됨에 따라 알츠하이머병의 조기 진단 및 뇌 영상 이미지의 자동 분류에 딥 러닝을 적용하기 위한 노력이 계속되었습니다. 
 
-이 글은 알츠하이머병의 진단 분류를 위해 딥러닝 방법과 신경 영상 데이터를 사용한 논문의 체계적인 검토의 결과를 공개하기 위해 작성되고 있습니다. 2013년 1월부터 2018년 7월 사이에 발표된 알츠하이머병에 대한 딥러닝 논문을 확인하기 위해 PubMed와 Google Scholar 검색을 사용했고, 모든 논문들을 리뷰하고 평가한 결과를 정리하도록 하겠습니다. 
+이 포스팅은 알츠하이머병의 진단을 위해 신경 영상 데이터에 딥러닝을 적용한 논문을 전수 조사한  "Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data" Frontiers in aging neuroscience (2019) 논문을 옮긴 것입니다. 
 
-자체적으로 세운 기준을 충족하는 연구는 총 16개 였으며, 이 중 4개는 딥 러닝과 기존 머신 러닝 접근 방식의 조합을 사용했고 12개는 딥 러닝 접근 방식만 사용했습니다. 기존의 기계 학습법과 스택형 자동 인코더(SAE)의 조합은 알츠하이머병 분류의 경우 최대 98.8%의 정확도를 보여 주었고, 알츠하이머병의 전 단계인 경도인지 장애(MCI)로부터 알츠하이머병으로의 변환 예측 정확도는 83.7%가량 이었습니다. 
+> <details>
+> <summary>논문 인용 하기 </summary>
+> <br>
+> Jo, Taeho, Kwangsik Nho, and Andrew J. Saykin. "Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data." Frontiers in aging neuroscience 11 (2019): 220.
+> </details>
 
-SAE방법은 feature를 선택하기 위한 사전 처리에 해당합니다. 이러한 과정 없이 신경 영상 데이터를 사용하는 CNN(Convolutional Neural Network) 또는 RNN(Recurrent Neural Network)과 같은 딥 러닝 접근 방식은 알츠하이머병 분류의 경우 최대 96.0%, MCI 변환 예측의 경우 84.2%의 정확도를 보였습니다. 
+2013년 1월부터 2018년 7월 사이에 발표된 알츠하이머병에 대한 딥러닝 논문을 PubMed와 Google Scholar 를 사용해 검색했고 총 358개의 검색 결과 중 자체적으로 세운 기준을 충족하는 연구는 총 16개의 논문을 상세 검사 대상으로 정했습니다. 16개 논문중 4개는 딥 러닝과 기존 머신 러닝 접근 방식의 조합을 사용했고 12개는 딥 러닝 접근 방식만 사용했습니다. 기존의 기계 학습법과 스택형 오토 인코더(SAE)의 조합은 알츠하이머병 분류의 경우 최대 98.8%의 정확도를 보였고, 알츠하이머병의 전 단계인 경도인지 장애(MCI)로부터 알츠하이머병으로의 변환 예측 정확도는 83.7%였습니다. 
 
-여러가지 종류의 신경 영상과 바이오마커를 결합할 때 가장 높은 분류 정확도를 얻었습니다. 딥러닝 접근 방식의 성능은 시간이 지나면서 계속해서 향상되었고, 특히 여러 종류의 신경 영상 데이터를 사용하여 알츠하이머병 진단을 분류할 때 더 많은 가능성이 열려 있는 것으로 보입니다. 
+SAE 방법은 feature를 선택하기 위한 사전 처리에 해당합니다. 이러한 과정 없이 신경 영상 데이터를 사용하는 CNN(Convolutional Neural Network) 또는 RNN(Recurrent Neural Network)과 같은 딥 러닝 접근 방식은 알츠하이머병 분류의 경우 최대 96.0%, MCI 변환 예측의 경우 84.2%의 정확도를 보였습니다. 
 
-딥 러닝을 사용하는 알츠하이머병 연구는 여전히 진화하고 있으며 omics 데이터와 같은 추가 하이브리드 데이터 유형을 통합하여 성능을 개선할 필요가 있어 보였습니다. 특정 질병 관련 기능 및 메커니즘에 대한 지식을 추가하는 것과, 설명 가능한 접근 방식으로 투명성을 높이는 과정또한 필요해 보였습니다.
+여러가지 종류의 신경 영상과 바이오마커를 결합할 때 가장 높은 분류 정확도를 얻었습니다. 딥러닝 접근 방식의 성능은 시간이 지나면서 계속해서 향상되었고, 특히 여러 종류의 신경 영상 데이터를 사용하여 알츠하이머병 진단을 분류할 때 더 많은 가능성이 열려 있습니다. 
+
+딥 러닝을 사용하는 알츠하이머병 연구는 여전히 진화하고 있으며 omics 데이터등 추가 데이터를 통합하여 성능을 개선할 필요가 있어 보였습니다. 특정 질병 관련 기능 및 메커니즘에 대한 지식을 추가하는 것과, 설명 가능한 접근 방식으로 투명성을 높이는 과정도 필요해 보였습니다.
+
+<br/>**Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data** <br/>
+Taeho Jo*, Kwangsik Nho and Andrew J. Saykin
+<br/>
 
 ---
 
 ## Abstract
 
-Department of Radiology and Imaging Sciences, Center for Neuroimaging, Indiana University School of Medicine, Indianapolis, IN, United States2Indiana Alzheimer Disease Center, Indiana University School of Medicine, Indianapolis, IN, United States3Indiana University Network Science Institute, Bloomington, IN, United StatesDeep learning, a state-of-the-art machine learning approach, has shown outstanding performance over traditional machine learning in identifying intricate structures in complex high-dimensional data, especially in the domain of computer vision. The application of deep learning to early detection and automated classification of Alzheimer's disease (AD) has recently gained considerable attention, as rapid progress in neuroimaging techniques has generated large-scale multimodal neuroimaging data. A systematic review of publications using deep learning approaches and neuroimaging data for diagnostic classification of AD was performed. A PubMed and Google Scholar search was used to identify deep learning papers on AD published between January 2013 and July 2018. These papers were reviewed, evaluated, and classified by algorithm and neuroimaging type, and the findings were summarized. Of 16 studies meeting full inclusion criteria, 4 used a combination of deep learning and traditional machine learning approaches, and 12 used only deep learning approaches. The combination of traditional machine learning for classification and stacked auto-encoder (SAE) for feature selection produced accuracies of up to 98.8% for AD classification and 83.7% for prediction of conversion from mild cognitive impairment (MCI), a prodromal stage of AD, to AD. Deep learning approaches, such as convolutional neural network (CNN) or recurrent neural network (RNN), that use neuroimaging data without pre-processing for feature selection have yielded accuracies of up to 96.0% for AD classification and 84.2% for MCI conversion prediction. The best classification performance was obtained when multimodal neuroimaging and fluid biomarkers were combined. Deep learning approaches continue to improve in performance and appear to hold promise for diagnostic classification of AD using multimodal neuroimaging data. AD research that uses deep learning is still evolving, improving performance by incorporating additional hybrid data types, such as—omics data, increasing transparency with explainable approaches that add knowledge of specific disease-related features and mechanisms.
+Deep learning, a state-of-the-art machine learning approach, has shown outstanding performance over traditional machine learning in identifying intricate structures in complex high-dimensional data, especially in the domain of computer vision. The application of deep learning to early detection and automated classification of Alzheimer's disease (AD) has recently gained considerable attention, as rapid progress in neuroimaging techniques has generated large-scale multimodal neuroimaging data. A systematic review of publications using deep learning approaches and neuroimaging data for diagnostic classification of AD was performed. A PubMed and Google Scholar search was used to identify deep learning papers on AD published between January 2013 and July 2018. These papers were reviewed, evaluated, and classified by algorithm and neuroimaging type, and the findings were summarized. Of 16 studies meeting full inclusion criteria, 4 used a combination of deep learning and traditional machine learning approaches, and 12 used only deep learning approaches. The combination of traditional machine learning for classification and stacked auto-encoder (SAE) for feature selection produced accuracies of up to 98.8% for AD classification and 83.7% for prediction of conversion from mild cognitive impairment (MCI), a prodromal stage of AD, to AD. Deep learning approaches, such as convolutional neural network (CNN) or recurrent neural network (RNN), that use neuroimaging data without pre-processing for feature selection have yielded accuracies of up to 96.0% for AD classification and 84.2% for MCI conversion prediction. The best classification performance was obtained when multimodal neuroimaging and fluid biomarkers were combined. Deep learning approaches continue to improve in performance and appear to hold promise for diagnostic classification of AD using multimodal neuroimaging data. AD research that uses deep learning is still evolving, improving performance by incorporating additional hybrid data types, such as—omics data, increasing transparency with explainable approaches that add knowledge of specific disease-related features and mechanisms.
 
 
 

@@ -4,7 +4,7 @@ sort: 2
 
 # 쉽게 이해하는 GAN
 
-
+[![Youtube](https://img.shields.io/youtube/channel/views/UC_LvgzB44dGRvOcQqMzdT4g?label=%EB%8F%99%EC%98%81%EC%83%81%20%EA%B0%95%EC%9D%98&style=social)](https://bit.ly/taehojo)
 
  <img src="./images/gan1.png" alt="img" style="zoom:70%;" />
 

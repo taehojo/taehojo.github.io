@@ -4,7 +4,7 @@ sort: 3
 
 # 쉽게 이해하는 오토인코더
 
- 
+ [![Youtube](https://img.shields.io/youtube/channel/views/UC_LvgzB44dGRvOcQqMzdT4g?label=%EB%8F%99%EC%98%81%EC%83%81%20%EA%B0%95%EC%9D%98&style=social)](https://bit.ly/taehojo)
 
 딥러닝을 이용해 가상의 이미지를 만드는, 또 하나의 유명한 알고리즘이 있습니다. **오토인코더**(Auto-encoder, AE)입니다. 
 

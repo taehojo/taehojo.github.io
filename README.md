@@ -23,8 +23,8 @@
 Analysis of Deep Learning applications in life science:  explanation of its fundamentals.
 
 ### Alpha-Fold
--  [Alphafold 1 review and interpretation (Korean)](https://taehojo.github.io/alphafold/alphafold1.html) 
--  [Alphafold 2 review and interpretation (Korean)](https://taehojo.github.io/alphafold/alphafold2.html) 
+-  [Alpha-Fold 1 review and interpretation (Korean)](https://taehojo.github.io/alphafold/alphafold1.html) 
+-  [Alpha-Fold 2 review and interpretation (Korean)](https://taehojo.github.io/alphafold/alphafold2.html) 
 
 ### Deep Learning and Alzheimer's disease
 - [Diagnosis of Alzheimer's disease using Deep Learning](https://taehojo.github.io/deeplearning-for-science/dl-ad-dx.html) 

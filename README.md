@@ -19,13 +19,8 @@
 - [쉽게 이해하는 GAN](https://taehojo.github.io/deeplearning-for-everyone/gan.html) 
 - [쉽게 이해하는 오토인코더](https://taehojo.github.io/deeplearning-for-everyone/auto-encoder.html) 
 
-### The license
-Copyright: Taeho Jo (taehjo@gmail.com)
-
 ****
-# Deep Learning and Life Sciences
-
-Analysis of deep learning applications in life science:  explanation of its fundamentals.
+Analysis of Deep Learning applications in life science:  explanation of its fundamentals.
 <br/><br/> 
 [![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
 [![Facebook](https://img.shields.io/badge/facebook-taehojo-blue)](https://facebook.com/taehojo)
@@ -34,12 +29,12 @@ Analysis of deep learning applications in life science:  explanation of its fund
 -  [Alphafold 1 review and interpretation (Korean)](https://taehojo.github.io/alphafold/alphafold1.html) 
 -  [Alphafold 2 review and interpretation (Korean)](https://taehojo.github.io/alphafold/alphafold2.html) 
 
-## 딥러닝과 생명과학
-- [Diagnosis of Alzheimer's disease using deep learning](https://taehojo.github.io/deeplearning-for-science/dl-ad-dx.html) 
-- [Deep learning and Tau protein](https://taehojo.github.io/deeplearning-for-science/dl-tau.html) 
-- [Deep learning and Genetics](https://taehojo.github.io/deeplearning-for-science/dl-genetic.html) 
+## Deep Learning and Alzheimer's disease
+- [Diagnosis of Alzheimer's disease using Deep Learning](https://taehojo.github.io/deeplearning-for-science/dl-ad-dx.html) 
+- [Deep Learning and Tau protein](https://taehojo.github.io/deeplearning-for-science/dl-tau.html) 
+- [Deep Learning and Genetics](https://taehojo.github.io/deeplearning-for-science/dl-genetic.html) 
 
-## 모두의 딥러닝 교실
+## Deep Learning for Everyone
 - [Natural language processing (NLP) (Korean)](https://taehojo.github.io/deeplearning-for-everyone/nlp.html) 
 - [Generative Adversarial Network (GAN) (Korean)](https://taehojo.github.io/deeplearning-for-everyone/gan.html) 
 - [Auto-encoder (Korean](https://taehojo.github.io/deeplearning-for-everyone/auto-encoder.html) 

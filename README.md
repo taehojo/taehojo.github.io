@@ -21,7 +21,7 @@
 
 ****
 Analysis of Deep Learning applications in life science:  explanation of its fundamentals.
-<br/><br/> 
+<br/>
 
 # Alpha-Fold
 -  [Alphafold 1 review and interpretation (Korean)](https://taehojo.github.io/alphafold/alphafold1.html) 
@@ -35,7 +35,7 @@ Analysis of Deep Learning applications in life science:  explanation of its fund
 # Deep Learning for Everyone
 - [Natural language processing (NLP) (Korean)](https://taehojo.github.io/deeplearning-for-everyone/nlp.html) 
 - [Generative Adversarial Network (GAN) (Korean)](https://taehojo.github.io/deeplearning-for-everyone/gan.html) 
-- [Auto-encoder (Korean](https://taehojo.github.io/deeplearning-for-everyone/auto-encoder.html) 
+- [Auto-encoder (Korean)](https://taehojo.github.io/deeplearning-for-everyone/auto-encoder.html) 
 
 ### The license
 Copyright: Taeho Jo (taehjo@gmail.com)

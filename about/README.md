@@ -12,7 +12,7 @@ sort: 0
 ---
 
 * 📓 에세이
-  + 🏆 <제7회 브런치북 대상> 당신의 이유는 무엇입니까 ([책](http://www.yes24.com/Product/Goods/90981164), [브런치](https://brunch.co.kr/brunchbook/not-this-world), [애나의 다락방 라디오](https://www.youtube.com/watch?v=szHI91_ZbBU)), 어떤책, 2020
+  + 🏆 &lt;제7회 브런치북 대상&gt; 당신의 이유는 무엇입니까 ([책](http://www.yes24.com/Product/Goods/90981164), [브런치](https://brunch.co.kr/brunchbook/not-this-world), [애나의 다락방 라디오](https://www.youtube.com/watch?v=szHI91_ZbBU)), 어떤책, 2020
 <br/>
 
 * 📖 IT책

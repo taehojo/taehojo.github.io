@@ -24,7 +24,7 @@ sort: 0
   + 쉽게 시작하는 캐글 데이터 분석  ([코드](https://github.com/taehojo/getting_started_with_kaggle),[정오표](https://taehojo.github.io/book/kaggle-092322.pdf), [책](http://www.yes24.com/Product/Goods/103526120)), 길벗, 2021 
   + 딥러닝 워크북 ([코드](https://github.com/taehojo/deeplearning-workshop), [책](http://www.yes24.com/Product/Goods/59789570)), 길벗, 2018
 
-* 🔬 연구 [➡️ **자세히**](http://www.taehojo.com/)
+* 🔬 연구 [➡️ **자세히**](http://www.taehojo.com/publications)
   + 딥러닝을 이용한 알츠하이머 병 원인 대사체 식별 [(코드)](https://github.com/taehojo/c-SWAT), [(논문)](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(23)00386-9/fulltext)
   + 딥러닝을 이용한 알츠하이머 병 유전 변이 식별 [(코드)](https://github.com/taehojo/SWAT), [(논문)](https://pubmed.ncbi.nlm.nih.gov/35183061/)
   + 딥러닝을 이용한 알츠하이머 병 원인 단백질 추적 [(논문)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03848-0)

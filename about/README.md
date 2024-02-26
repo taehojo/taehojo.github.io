@@ -14,6 +14,7 @@ sort: 0
 * 📓 에세이
   + 🏆 <제7회 브런치북 대상> 당신의 이유는 무엇입니까 ([책](http://www.yes24.com/Product/Goods/90981164), [브런치](https://brunch.co.kr/brunchbook/not-this-world), [애나의 다락방 라디오](https://www.youtube.com/watch?v=szHI91_ZbBU)), 어떤책, 2020
 <br/>
+
 * 📖 IT책
   + 모두의 딥러닝 개정3판  ([코드](https://github.com/taehojo/deeplearning), [정오표](https://taehojo.github.io/book/deeplearning-20231129.pdf), [책](http://www.yes24.com/Product/Goods/108553440), [Youtube](https://www.youtube.com/@taehojo)), 길벗, 2022
   + 모두의 딥러닝 개정2판 ([코드](https://github.com/taehojo/deeplearning-for-everyone-2nd), [정오표](https://taehojo.github.io/book/errata-20220511.pdf)), 길벗, 2019 
@@ -22,6 +23,7 @@ sort: 0
   + 쉽게 시작하는 캐글 데이터 분석  ([코드](https://github.com/taehojo/getting_started_with_kaggle),[정오표](https://taehojo.github.io/book/kaggle-092322.pdf), [책](http://www.yes24.com/Product/Goods/103526120)), 길벗, 2021 
   + 딥러닝 워크북 ([코드](https://github.com/taehojo/deeplearning-workshop), [책](http://www.yes24.com/Product/Goods/59789570)), 길벗, 2018
 <br/>
+
 * 🔬 연구 [➡️ **자세히**](http://www.taehojo.com/publications)
   + 딥러닝을 이용한 알츠하이머 병 원인 대사체 식별 [(코드)](https://github.com/taehojo/c-SWAT), [(논문)](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(23)00386-9/fulltext)
   + 딥러닝을 이용한 알츠하이머 병 유전 변이 식별 [(코드)](https://github.com/taehojo/SWAT), [(논문)](https://pubmed.ncbi.nlm.nih.gov/35183061/)

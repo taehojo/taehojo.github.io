@@ -8,8 +8,8 @@ sort: 0
 안녕하세요. 머신러닝/딥러닝으로 알츠하이머를 연구하며 가끔 책도 쓰는 <b>조태호</b>라고 합니다. 
 
 <br/><br/>
-[![Website](https://img.shields.io/badge/Website-www.taehojo.com-brightgreen)](http://www.taehojo.com)
-[![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
+* <b>웹사이트:</b> [www.taehojo.com](http://www.taehojo.com)
+* <b>Github:</b> [taehojo](https://github.com/taehojo)
 
 ----
 
@@ -17,7 +17,7 @@ sort: 0
   + 🏆 <제7회 브런치북 대상> 당신의 이유는 무엇입니까 ([책](http://www.yes24.com/Product/Goods/90981164), [브런치](https://brunch.co.kr/brunchbook/not-this-world), [애나의 다락방 라디오](https://www.youtube.com/watch?v=szHI91_ZbBU)), 어떤책, 2020
 
 * 📖 IT책
-  + <b> 모두의 딥러닝 개정3판  ([코드](https://github.com/taehojo/deeplearning), [정오표](https://taehojo.github.io/book/deeplearning-20231129.pdf), [책](http://www.yes24.com/Product/Goods/108553440), [Youtube](https://www.youtube.com/@taehojo)), 길벗, 2022 </b>
+  + 모두의 딥러닝 개정3판  ([코드](https://github.com/taehojo/deeplearning), [정오표](https://taehojo.github.io/book/deeplearning-20231129.pdf), [책](http://www.yes24.com/Product/Goods/108553440), [Youtube](https://www.youtube.com/@taehojo)), 길벗, 2022
   + 모두의 딥러닝 개정2판 ([코드](https://github.com/taehojo/deeplearning-for-everyone-2nd), [정오표](https://taehojo.github.io/book/errata-20220511.pdf)), 길벗, 2019 
   + 모두의 딥러닝 1판 ([코드](https://github.com/taehojo/deeplearning-for-everyone-1st)), 길벗, 2017
   + 그림으로 배우는 인지과학 ([책](http://www.yes24.com/Product/Goods/108250950)), 길벗, 2022 

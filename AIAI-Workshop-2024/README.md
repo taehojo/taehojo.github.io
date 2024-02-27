@@ -10,16 +10,17 @@
 - 기타 벤치마크 데이터셋: MNIST, Iris, Wine, Boston housing, Reuters News 등
 
 ### 강의 학습자료
-  - [1. 딥러닝 기초](https://colab.research.google.com/github/taehojo/deeplearning/blob/master/colab/ch10-colab.ipynb)
-  - [2. 데이터 처리 기법](https://colab.research.google.com/github/taehojo/deeplearning/blob/master/colab/ch11-colab.ipynb)
-  - [3. 다중 분류 방법](https://colab.research.google.com/github/taehojo/deeplearning/blob/master/colab/ch12-colab.ipynb)
-  - [4. 모델 검증 전략](https://colab.research.google.com/github/taehojo/deeplearning/blob/master/colab/ch13-colab.ipynb)
-  - [5. 성능 향상 기법](https://colab.research.google.com/github/taehojo/deeplearning/blob/master/colab/ch14-colab.ipynb)
-  - [6. 실데이터 적용 사례](https://colab.research.google.com/github/taehojo/deeplearning/blob/master/colab/ch15-colab.ipynb)
-  - [7. 이미지 분류와 CNN](https://colab.research.google.com/github/taehojo/deeplearning/blob/master/colab/ch16-colab.ipynb)
-  - [8. 자연어 처리 기초](https://colab.research.google.com/github/taehojo/deeplearning/blob/master/colab/ch17-colab.ipynb)
-  - [9. RNN 및 Attention 메커니즘](https://colab.research.google.com/github/taehojo/deeplearning/blob/master/colab/ch18-colab.ipynb)
-  - [10. CNN과 전이 학습](https://colab.research.google.com/github/taehojo/deeplearning/blob/master/colab/ch20-colab.ipynb)
+1. [딥러닝 기초](https://colab.research.google.com/github/taehojo/AIAI-Workshop-2024/blob/master/colab/01-colab.ipynb)
+2. [데이터 처리 기법](https://colab.research.google.com/github/taehojo/AIAI-Workshop-2024/blob/master/colab/02-colab.ipynb)
+3. [다중 분류 방법](https://colab.research.google.com/github/taehojo/AIAI-Workshop-2024/blob/master/colab/03-colab.ipynb)
+4. [모델 검증 전략](https://colab.research.google.com/github/taehojo/AIAI-Workshop-2024/blob/master/colab/04-colab.ipynb)
+5. [성능 향상 기법](https://colab.research.google.com/github/taehojo/AIAI-Workshop-2024/blob/master/colab/05-colab.ipynb)
+6. [실데이터 적용 사례](https://colab.research.google.com/github/taehojo/AIAI-Workshop-2024/blob/master/colab/06-colab.ipynb)
+7. [이미지 분류와 CNN](https://colab.research.google.com/github/taehojo/AIAI-Workshop-2024/blob/master/colab/07-colab.ipynb)
+8. [자연어 처리 기초](https://colab.research.google.com/github/taehojo/AIAI-Workshop-2024/blob/master/colab/08-colab.ipynb)
+9. [RNN 및 Attention 메커니즘](https://colab.research.google.com/github/taehojo/AIAI-Workshop-2024/blob/master/colab/09-colab.ipynb)
+10. [CNN과 전이 학습](https://colab.research.google.com/github/taehojo/AIAI-Workshop-2024/blob/master/colab/10-colab.ipynb)
+
 
 - **보충 자료**
   - [알츠하이머 유전체 분류 SWAT](https://github.com/taehojo/SWAT)

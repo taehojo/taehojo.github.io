@@ -11,8 +11,5 @@ readme_index:
 plugins:
   - github-pages
 
-baseurl: ""
-url: "https://taehojo.github.io"
-
 # Google Analytics
 google_analytics: UA-204303332-1

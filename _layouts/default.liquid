@@ -8,8 +8,12 @@ layout: tasks/compress
 <!DOCTYPE html>
 <html lang="{{ lang }}" dir="{{ direction }}">
     <head>
+        <!-- 메타 정보 포함 -->
         {%- include common/metadata.liquid -%}
-        {%- include common/title.liquid -%}
+        
+        <!-- <title> 태그만 포함 -->
+        <title>{{ page.title | default: site.title }}</title>
+        
         {%- include common/twitter_cards.liquid -%}
         {%- include common/opengraph.liquid -%}
         {%- include common/schema.liquid -%}
@@ -17,13 +21,21 @@ layout: tasks/compress
         {%- include rest/styles.liquid -%}
         {%- include common/script.liquid -%}
         {%- include extra/head.html -%}
+		
 		{% if site.google_analytics and jekyll.environment == 'production' %}
 		{% include analytics.html %}
 		{% endif %}
     </head>
     <body class="container">
+        <!-- 사이드바 포함 -->
         {%- include templates/sidebar.liquid -%}
-        {%- include templates/content.liquid -%}
+        
+        <!-- 컨텐츠 렌더링 -->
+        <main>
+          <!-- 여기서 <h1> 태그를 생략하여 중복된 제목 방지 -->
+          {%- include templates/content.liquid -%}
+        </main>
+        
         {%- include templates/addons.liquid -%}
         {%- include extra/body.html -%}
         {%- include rest/script.liquid -%}

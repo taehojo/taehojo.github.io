@@ -3,7 +3,8 @@ author: 조태호
 email: taehjo@gmail.com
 description: Deep learning Study, Deep learning in Science, Alphafold study
 
-theme: minima
+#theme: minima
+remote_theme: just-the-docs/just-the-docs
 
 readme_index:
   with_frontmatter: true

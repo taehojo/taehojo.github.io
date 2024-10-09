@@ -1,0 +1,18 @@
+title: 딥러닝과 생명과학
+author: 조태호
+email: taehjo@gmail.com
+description: Deep learning Study, Deep learning in Science, Alphafold study
+
+remote_theme: jekyll/minima
+
+readme_index:
+  with_frontmatter: true
+
+plugins:
+  - github-pages
+
+baseurl: ""
+url: "https://taehojo.github.io"
+
+# Google Analytics
+google_analytics: UA-204303332-1

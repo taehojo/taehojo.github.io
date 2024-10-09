@@ -11,9 +11,6 @@ layout: tasks/compress
         <!-- 메타 정보 포함 -->
         {%- include common/metadata.liquid -%}
         
-        <!-- <title> 태그만 포함 -->
-        <title>{{ page.title | default: site.title }}</title>
-        
         {%- include common/twitter_cards.liquid -%}
         {%- include common/opengraph.liquid -%}
         {%- include common/schema.liquid -%}

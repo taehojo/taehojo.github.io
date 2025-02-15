@@ -2,7 +2,7 @@
 인디애나대학교 의과대학 영상의학과 조태호 교수의 딥러닝과 생명과학 블로그입니다.
 
 **연구실 홈페이지:** [https://www.jolab.ai](https://www.jolab.ai)
-
+![JoLab](./images/jolab.png)  
 [![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
 
 ## 알파폴드 스터디

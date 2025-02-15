@@ -6,7 +6,7 @@ sort: 0
 ![Taeho Jo](./images/taehojo.png)  
 안녕하세요. 머신러닝/딥러닝으로 알츠하이머를 연구하며 가끔 책도 쓰는 **조태호**라고 합니다.
 
-- **웹사이트:** [www.taehojo.com](http://www.taehojo.com)
+- **웹사이트:** [www.jolab.ai](https://www.jolab.ai)
 - **Github:** [taehojo](https://github.com/taehojo)
 
 ---

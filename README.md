@@ -1,9 +1,11 @@
 # 딥러닝과 생명과학
-딥러닝의 생명과학 적용 사례를 분석하고, 딥러닝 기술을 쉽게 이해하기 위한 페이지입니다.
+인디애나대학교 의과대학 영상의학과 조태호 교수의 딥러닝과 생명과학 블로그입니다.
+
+**연구실 홈페이지:** [https://www.jolab.ai](https://www.jolab.ai)
+
 <br/><br/> 
 [![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
-[![Facebook](https://img.shields.io/badge/facebook-taehojo-blue)](https://facebook.com/taehojo)
-[![IU](https://img.shields.io/badge/IU-medicine-red)](https://medicine.iu.edu/faculty/41882/jo-taeho)
+
 ## 알파폴드 스터디
 -  [알파폴드 리뷰와 해석](https://taehojo.github.io/alphafold/alphafold1.html) 
 -  [알파폴드2 모델 분석](https://taehojo.github.io/alphafold/alphafold2.html) 

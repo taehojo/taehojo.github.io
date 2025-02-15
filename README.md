@@ -3,7 +3,6 @@
 
 **연구실 홈페이지:** [https://www.jolab.ai](https://www.jolab.ai)
 
-<br/><br/> 
 [![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
 
 ## 알파폴드 스터디

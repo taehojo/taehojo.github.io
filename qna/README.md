@@ -5,7 +5,7 @@ sort: 0
 *질문: 데일리메디 / 답변: 조태호 교수*
 
 > **커지는 의료 AI 시장 - 한국은 어디까지 왔나**  
-> <img src="./images/jolab.png" alt="JoLab" width="300">
+<img src="./images/jolab.png" alt="JoLab" width="300">
 
 ---
 

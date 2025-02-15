@@ -18,22 +18,5 @@
 - [쉽게 이해하는 GAN](https://taehojo.github.io/deeplearning-for-everyone/gan.html) 
 - [쉽게 이해하는 오토인코더](https://taehojo.github.io/deeplearning-for-everyone/auto-encoder.html) 
 
-****
-Analysis of Deep Learning applications in life science:  explanation of its fundamentals.
-
-### Alpha-Fold
--  [Alpha-Fold 1 review and interpretation (Korean)](https://taehojo.github.io/alphafold/alphafold1.html) 
--  [Alpha-Fold 2 review and interpretation (Korean)](https://taehojo.github.io/alphafold/alphafold2.html) 
-
-### Deep Learning and Alzheimer's disease
-- [Diagnosis of Alzheimer's disease using Deep Learning](https://taehojo.github.io/deeplearning-for-science/dl-ad-dx.html) 
-- [Deep Learning and Tau protein](https://taehojo.github.io/deeplearning-for-science/dl-tau.html) 
-- [Deep Learning and Genetics](https://taehojo.github.io/deeplearning-for-science/dl-genetic.html) 
-
-### Deep Learning for Everyone
-- [Natural language processing (NLP) (Korean)](https://taehojo.github.io/deeplearning-for-everyone/nlp.html) 
-- [Generative Adversarial Network (GAN) (Korean)](https://taehojo.github.io/deeplearning-for-everyone/gan.html) 
-- [Auto-encoder (Korean)](https://taehojo.github.io/deeplearning-for-everyone/auto-encoder.html) 
-
 ## The license
-Copyright: Taeho Jo (taehjo@gmail.com)
+Copyright: Taeho Jo (https://www.jolab.ai)

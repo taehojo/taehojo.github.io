@@ -7,18 +7,10 @@ theme: just-the-docs
 url: https://taehojo.github.io
 
 # Logo and branding
-logo: "/images/jolab.png"
+logo: "/images/logo.png"
 
-# Search
-search_enabled: true
-search:
-  heading_level: 2
-  previews: 3
-  preview_words_before: 5
-  preview_words_after: 10
-  tokenizer_separator: /[\s/]+/
-  rel_url: true
-  button: true
+# Search - disabled
+search_enabled: false
 
 # Navigation
 nav_enabled: true
@@ -32,7 +24,7 @@ back_to_top: true
 back_to_top_text: "맨 위로"
 
 # Footer
-footer_content: "Copyright &copy; 2024 조태호. <a href=\"https://www.jolab.ai\">JoLab</a>"
+footer_content: "Copyright &copy; 2024 <strong>조태호</strong> | <a href=\"https://www.jolab.ai\">JoLab.ai</a>"
 
 # External navigation links (social links)
 aux_links:
@@ -45,20 +37,8 @@ aux_links:
 
 aux_links_new_tab: true
 
-# Color scheme (using default, custom styles in head_custom.html)
+# Color scheme
 color_scheme: light
-
-# Callouts
-callouts:
-  note:
-    title: 참고
-    color: blue
-  warning:
-    title: 주의
-    color: yellow
-  important:
-    title: 중요
-    color: red
 
 # Plugins
 plugins:

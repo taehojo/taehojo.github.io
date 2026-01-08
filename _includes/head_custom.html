@@ -1,241 +1,312 @@
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;700&display=swap" rel="stylesheet">
 
 <style>
 /* ========================================
-   Clean Academic Theme
+   Blogger-Style Theme - Full Width, Centered
 ======================================== */
 
-:root {
-  --primary-color: #1a365d;
-  --accent-color: #2c5282;
-  --accent-hover: #1a365d;
-  --bg-primary: #ffffff;
-  --bg-secondary: #f7fafc;
-  --text-primary: #2d3748;
-  --text-secondary: #4a5568;
-  --text-muted: #718096;
-  --border-color: #e2e8f0;
-}
-
-/* Typography */
-body {
-  font-family: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif !important;
-  font-weight: 400;
-  line-height: 1.75;
-  color: var(--text-primary);
-  background-color: var(--bg-primary);
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', 'Noto Sans KR', sans-serif !important;
-  font-weight: 700;
-  color: var(--primary-color);
-}
-
-h1 {
-  font-size: 2rem;
-  border-bottom: 3px solid var(--accent-color);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: var(--text-primary);
-}
-
-h3 {
-  font-size: 1.25rem;
-  color: var(--text-secondary);
-}
-
-/* Sidebar */
-.side-bar {
-  background-color: var(--bg-secondary) !important;
-  border-right: 1px solid var(--border-color) !important;
-}
-
-.site-title {
-  font-weight: 700 !important;
-  font-size: 1.1rem !important;
-  color: var(--primary-color) !important;
-}
-
-/* Logo - display as background image */
-.site-logo {
-  width: 160px !important;
-  height: 50px !important;
-  margin-bottom: 0.5rem;
-  display: block !important;
-  background-image: url('/images/logo.png') !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: left center !important;
-}
-
-/* Navigation */
-.nav-list-link {
-  font-weight: 500;
-  color: var(--text-secondary) !important;
-  padding: 0.5rem 1rem !important;
-  border-radius: 4px;
-  transition: all 0.2s ease;
-}
-
-.nav-list-link:hover {
-  background-color: #edf2f7 !important;
-  color: var(--primary-color) !important;
-}
-
-.nav-list-link.active {
-  background-color: #ebf4ff !important;
-  color: var(--accent-color) !important;
-  font-weight: 600;
-}
-
-/* Hide aux-nav completely */
-.aux-nav {
+/* Hide just-the-docs sidebar and navigation */
+.side-bar,
+.site-nav,
+.site-header,
+.site-footer,
+.aux-nav,
+.search,
+.nav-list,
+#site-nav,
+.skip-to-main {
   display: none !important;
+}
+
+/* Reset main area to full width */
+.main {
+  margin-left: 0 !important;
+  max-width: 100% !important;
+}
+
+.main-content-wrap {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Body styling */
+body {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Header */
+body::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 /* Main Content */
 .main-content {
-  max-width: 900px;
-  padding: 2rem 2.5rem;
+  max-width: 800px !important;
+  margin: 100px auto 60px auto !important;
+  padding: 0 20px !important;
+  background: #fff;
+}
+
+/* Blog Title */
+h1:first-of-type {
+  font-family: 'Noto Serif KR', Georgia, serif !important;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+  border-bottom: none;
+  line-height: 1.3;
+}
+
+/* Post Title styling */
+h1 {
+  font-family: 'Noto Serif KR', Georgia, serif !important;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 2rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: justify;
 }
 
 /* Links */
 a {
-  color: var(--accent-color);
+  color: #1a73e8;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--accent-hover);
   text-decoration: underline;
+}
+
+/* Images - Full width, centered */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 4px;
+}
+
+/* Figure captions */
+p strong:only-child {
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
 }
 
 /* Blockquotes */
 blockquote {
-  border-left: 4px solid var(--accent-color) !important;
-  background-color: var(--bg-secondary);
-  padding: 1rem 1.5rem;
-  margin: 1.5rem 0;
-  border-radius: 0 4px 4px 0;
+  border-left: 4px solid #1a73e8 !important;
+  background: #f8f9fa;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #555;
+  border-radius: 0 8px 8px 0;
 }
 
 blockquote p {
-  color: var(--text-secondary);
   margin: 0;
+  font-size: 1.1rem;
 }
 
 /* Code */
 code {
-  background-color: #edf2f7;
-  color: #c53030;
-  padding: 0.2rem 0.4rem;
+  background: #f5f5f5;
+  padding: 0.2rem 0.5rem;
   border-radius: 4px;
   font-size: 0.9em;
+  color: #d63384;
 }
 
 pre {
-  background: #1a202c !important;
+  background: #282c34 !important;
   border-radius: 8px;
-  padding: 1.25rem;
+  padding: 1.5rem;
   overflow-x: auto;
+  margin: 2rem 0;
 }
 
 pre code {
   background: transparent;
-  color: #e2e8f0;
+  color: #abb2bf;
   padding: 0;
 }
 
-/* Tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
-  border: 1px solid var(--border-color);
+/* Horizontal rules - Post separator */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ddd, transparent);
+  margin: 4rem 0;
 }
 
-table th {
-  background: var(--accent-color) !important;
-  color: white !important;
-  font-weight: 600;
-  padding: 0.75rem 1rem;
-  text-align: left;
+/* Post separator style */
+.post-separator {
+  text-align: center;
+  margin: 4rem 0;
+  color: #ccc;
+  font-size: 1.5rem;
 }
 
-table td {
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid var(--border-color);
-}
-
-table tr:hover td {
-  background-color: var(--bg-secondary);
-}
-
-/* Images */
-.main-content img {
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 100%;
-  height: auto;
-}
-
-/* Footer */
-.site-footer {
-  border-top: 1px solid var(--border-color);
-  padding-top: 1.5rem;
+/* Footnotes */
+.footnotes {
   margin-top: 3rem;
-  color: var(--text-muted);
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
   font-size: 0.9rem;
+  color: #666;
 }
 
-/* Back to top */
-.back-to-top {
-  background-color: var(--accent-color) !important;
-  color: white !important;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-size: 0.85rem;
+/* Author info box */
+.author-info {
+  background: #f8f9fa;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
 }
 
-.back-to-top:hover {
-  background-color: var(--primary-color) !important;
-  text-decoration: none !important;
+/* Badge styling */
+img[src*="shields.io"] {
+  display: inline-block !important;
+  margin: 0.25rem !important;
+  border-radius: 4px !important;
 }
 
-/* Hide search */
-.search, .search-input-wrap, #search-input, .search-button, .search-overlay {
+/* Anchor links - hide */
+.anchor-heading {
   display: none !important;
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+/* Table of contents - hide */
+.text-delta,
+.toc {
+  display: none !important;
 }
 
-/* Selection */
-::selection {
-  background-color: #bee3f8;
-  color: var(--primary-color);
+/* Back to top - hide */
+#back-to-top,
+footer {
+  display: none !important;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  h1 {
-    font-size: 1.75rem;
-  }
   .main-content {
-    padding: 1.5rem 1rem;
+    margin-top: 80px !important;
+    padding: 0 15px !important;
+  }
+
+  h1:first-of-type {
+    font-size: 1.8rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+    text-align: left;
   }
 }
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
 </style>
+
+<!-- Custom Navigation Header -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Create custom header
+  var header = document.createElement('div');
+  header.innerHTML = `
+    <div style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background: #fff;
+      border-bottom: 1px solid #e0e0e0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      font-family: 'Noto Sans KR', sans-serif;
+    ">
+      <div style="
+        max-width: 800px;
+        width: 100%;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      ">
+        <a href="/" style="
+          font-size: 1.25rem;
+          font-weight: 700;
+          color: #1a1a1a;
+          text-decoration: none;
+        ">Deep Learning & Life Science</a>
+        <nav style="display: flex; gap: 2rem;">
+          <a href="/about/" style="color: #555; text-decoration: none; font-weight: 500;">About Taeho Jo</a>
+          <a href="https://www.jolab.ai" target="_blank" style="color: #555; text-decoration: none; font-weight: 500;">JoLab.ai</a>
+        </nav>
+      </div>
+    </div>
+  `;
+  document.body.insertBefore(header, document.body.firstChild);
+});
+</script>

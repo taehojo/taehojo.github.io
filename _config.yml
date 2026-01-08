@@ -1,41 +1,35 @@
 title: 딥러닝과 생명과학
-description: 인디애나대학교 의과대학 조태호 교수의 딥러닝 연구 블로그
+description: 조태호 교수의 딥러닝 연구 블로그
 author: 조태호
 email: taehjo@gmail.com
 
 theme: just-the-docs
 url: https://taehojo.github.io
 
-# Logo
-logo: "/images/logo.png"
+# No logo
+logo: false
 
-# Search - disabled
+# Search disabled
 search_enabled: false
 
 # Navigation
 nav_enabled: true
-nav_sort: case_insensitive
 
-# Heading anchors
-heading_anchors: true
+# No heading anchors
+heading_anchors: false
 
-# Back to top link
-back_to_top: true
-back_to_top_text: "맨 위로"
+# No back to top
+back_to_top: false
 
-# Footer - custom in head_custom.html
+# No footer
 footer_content: ""
-
-# Color scheme
-color_scheme: light
 
 # Plugins
 plugins:
   - jekyll-seo-tag
-  - jekyll-readme-index
-
-readme_index:
-  with_frontmatter: true
 
 # Google Analytics
 ga_tracking: UA-204303332-1
+
+# Exclude from navigation
+exclude_from_nav: true

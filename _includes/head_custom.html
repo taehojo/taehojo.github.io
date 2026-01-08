@@ -67,17 +67,16 @@ h3 {
   color: var(--primary-color) !important;
 }
 
-/* Logo - ensure proper display */
+/* Logo - display as background image */
 .site-logo {
-  max-width: 160px !important;
-  height: auto !important;
+  width: 160px !important;
+  height: 50px !important;
   margin-bottom: 0.5rem;
   display: block !important;
-}
-
-.site-logo img {
-  max-width: 100% !important;
-  height: auto !important;
+  background-image: url('/images/logo.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
 }
 
 /* Navigation */

@@ -6,7 +6,7 @@ email: taehjo@gmail.com
 theme: just-the-docs
 url: https://taehojo.github.io
 
-# Logo and branding
+# Logo
 logo: "/images/logo.png"
 
 # Search - disabled
@@ -23,19 +23,8 @@ heading_anchors: true
 back_to_top: true
 back_to_top_text: "맨 위로"
 
-# Footer
-footer_content: "Copyright &copy; 2024 <strong>조태호</strong> | <a href=\"https://www.jolab.ai\">JoLab.ai</a>"
-
-# External navigation links (social links)
-aux_links:
-  "GitHub":
-    - "https://github.com/taehojo"
-  "YouTube":
-    - "https://www.youtube.com/@taehojo"
-  "JoLab":
-    - "https://www.jolab.ai"
-
-aux_links_new_tab: true
+# Footer - custom in head_custom.html
+footer_content: ""
 
 # Color scheme
 color_scheme: light

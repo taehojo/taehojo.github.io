@@ -45,8 +45,8 @@ aux_links:
 
 aux_links_new_tab: true
 
-# Color scheme
-color_scheme: academic
+# Color scheme (using default, custom styles in head_custom.html)
+color_scheme: light
 
 # Callouts
 callouts:

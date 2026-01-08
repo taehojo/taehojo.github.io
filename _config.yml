@@ -1,22 +1,72 @@
 title: 딥러닝과 생명과학
+description: 인디애나대학교 의과대학 조태호 교수의 딥러닝 연구 블로그
 author: 조태호
 email: taehjo@gmail.com
-description: Deep learning Study, Deep learning in Science, Alphafold study
 
 theme: just-the-docs
-
 url: https://taehojo.github.io
 
-readme_index:
-  with_frontmatter: true
+# Logo and branding
+logo: "/images/jolab.png"
 
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: true
+
+# Navigation
+nav_enabled: true
+nav_sort: case_insensitive
+
+# Heading anchors
+heading_anchors: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "맨 위로"
+
+# Footer
+footer_content: "Copyright &copy; 2024 조태호. <a href=\"https://www.jolab.ai\">JoLab</a>"
+
+# External navigation links (social links)
+aux_links:
+  "GitHub":
+    - "https://github.com/taehojo"
+  "YouTube":
+    - "https://www.youtube.com/@taehojo"
+  "JoLab":
+    - "https://www.jolab.ai"
+
+aux_links_new_tab: true
+
+# Color scheme
+color_scheme: academic
+
+# Callouts
+callouts:
+  note:
+    title: 참고
+    color: blue
+  warning:
+    title: 주의
+    color: yellow
+  important:
+    title: 중요
+    color: red
+
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-readme-index
 
-# Google Analytics
-google_analytics: UA-204303332-1
+readme_index:
+  with_frontmatter: true
 
-# just-the-docs settings
-color_scheme: light
-search_enabled: true
+# Google Analytics
+ga_tracking: UA-204303332-1

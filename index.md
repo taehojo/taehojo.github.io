@@ -108,7 +108,13 @@ trRosseta개발 그룹도 이 눈문을 보면서 똑같이 분석했을 것입�
 
 아직 기회는 문을 열어 놓고 우리를 기다리고 있습니다. 알파폴드는 결코 뛰어난 사람들이 천재적인 기술로 만든, 범접할 수 없는 소프트웨어가 아닙니다. 여전히 AI시대의 초입이라는 건 좋은 소식입니다. 지금은 딥러닝을 쉽게 배울 수 있는 때입니다. 필요한 대부분이 라이브러리로 준비되어 있고, 깃허브에는 잘된 소스코드가 공유되어 있습니다. 연구와 학문의 길을 걷는 사람이라면, 자신의 분야에 그동안 쏟아 부은 에너지의 작은 부분만으로도 AI라는 거인의 어깨에 올라탈 수 있습니다.
 
----
+<div class="post-end">
+<p class="post-date">2021년 3월</p>
+</div>
+
+<div class="post-divider">
+<span>다음 글</span>
+</div>
 
 # 알파폴드2 모델 분석
 
@@ -164,9 +170,18 @@ Invariant Point Attention 메커니즘에는 단백질 구조 개선을 위해 �
 
 1972년 아미노산 배열의 1차 구조가 처음으로 해석된 이래, 단백질의 구조를 알아내기 위한 노력이 계속되어 왔습니다. 알파폴드2는 지난 50여년간 이어온 분자 생물학, 유전학, 생명정보학의 성과가 AI의 급속한 발전과 더불어 탄생한 놀라운 사건이 아닐 수 없습니다.
 
----
+<div class="post-end">
+<p class="post-date">2021년 7월</p>
+</div>
 
-**조태호** (인디애나대학교 의과대학)
-
-[![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
-[![IU](https://img.shields.io/badge/IU-medicine-red)](https://medicine.iu.edu/faculty/41882/jo-taeho)
+<div class="site-footer-custom">
+<div class="footer-content">
+<p class="footer-author"><strong>조태호</strong> | 인디애나대학교 의과대학</p>
+<p class="footer-links">
+<a href="https://github.com/taehojo" target="_blank">GitHub</a> ·
+<a href="https://www.jolab.ai" target="_blank">JoLab.ai</a> ·
+<a href="mailto:taehjo@gmail.com">Email</a>
+</p>
+<p class="footer-copy">© 2024 Taeho Jo. All rights reserved.</p>
+</div>
+</div>

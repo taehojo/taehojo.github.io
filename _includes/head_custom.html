@@ -264,6 +264,85 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
+/* Post end - date */
+.post-end {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.post-date {
+  color: #999;
+  font-size: 0.9rem;
+  text-align: right;
+  margin: 0;
+}
+
+/* Post divider between articles */
+.post-divider {
+  text-align: center;
+  margin: 4rem 0;
+  position: relative;
+}
+
+.post-divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ddd 20%, #ddd 80%, transparent);
+}
+
+.post-divider span {
+  background: #fff;
+  padding: 0 1.5rem;
+  color: #888;
+  font-size: 0.9rem;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+/* Custom site footer */
+.site-footer-custom {
+  margin-top: 5rem;
+  padding: 3rem 0;
+  background: #f8f9fa;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-author {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.footer-links {
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: #666;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #1a73e8;
+}
+
+.footer-copy {
+  color: #999;
+  font-size: 0.8rem;
+  margin: 0;
+}
 </style>
 
 <!-- Custom Navigation Header - using CSS only -->

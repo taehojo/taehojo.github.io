@@ -266,47 +266,71 @@ html {
 }
 </style>
 
-<!-- Custom Navigation Header -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Create custom header
-  var header = document.createElement('div');
-  header.innerHTML = `
-    <div style="
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 60px;
-      background: #fff;
-      border-bottom: 1px solid #e0e0e0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 1000;
-      font-family: 'Noto Sans KR', sans-serif;
-    ">
-      <div style="
-        max-width: 800px;
-        width: 100%;
-        padding: 0 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      ">
-        <a href="/" style="
-          font-size: 1.25rem;
-          font-weight: 700;
-          color: #1a1a1a;
-          text-decoration: none;
-        ">Deep Learning & Life Science</a>
-        <nav style="display: flex; gap: 2rem;">
-          <a href="/about/" style="color: #555; text-decoration: none; font-weight: 500;">About Taeho Jo</a>
-          <a href="https://www.jolab.ai" target="_blank" style="color: #555; text-decoration: none; font-weight: 500;">JoLab.ai</a>
-        </nav>
-      </div>
-    </div>
-  `;
-  document.body.insertBefore(header, document.body.firstChild);
-});
-</script>
+<!-- Custom Navigation Header - using CSS only -->
+<style>
+/* Header container */
+#custom-blog-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#custom-blog-header .header-inner {
+  max-width: 800px;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#custom-blog-header .site-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+#custom-blog-header .site-name:hover {
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+#custom-blog-header nav {
+  display: flex;
+  gap: 2rem;
+}
+
+#custom-blog-header nav a {
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+#custom-blog-header nav a:hover {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  #custom-blog-header .site-name {
+    font-size: 1rem;
+  }
+  #custom-blog-header nav {
+    gap: 1rem;
+  }
+  #custom-blog-header nav a {
+    font-size: 0.85rem;
+  }
+}
+</style>

@@ -4,6 +4,16 @@ title: Home
 nav_exclude: true
 ---
 
+<div id="custom-blog-header">
+  <div class="header-inner">
+    <a href="/" class="site-name">Deep Learning & Life Science</a>
+    <nav>
+      <a href="/about/">About Taeho Jo</a>
+      <a href="https://www.jolab.ai" target="_blank">JoLab.ai</a>
+    </nav>
+  </div>
+</div>
+
 # 알파폴드 리뷰와 해석
 
 >알파폴드의 등장과 그들이 사용한 방법, 그리고 학계에 주는 의미에 관하여

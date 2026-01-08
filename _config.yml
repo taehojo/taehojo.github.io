@@ -27,9 +27,10 @@ footer_content: ""
 # Plugins
 plugins:
   - jekyll-seo-tag
+  - jekyll-readme-index
+
+readme_index:
+  with_frontmatter: true
 
 # Google Analytics
 ga_tracking: UA-204303332-1
-
-# Exclude from navigation
-exclude_from_nav: true

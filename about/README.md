@@ -1,5 +1,6 @@
 ---
-sort: 0
+title: ABOUT 조태호
+nav_order: 0
 ---
 
 # ABOUT 조태호

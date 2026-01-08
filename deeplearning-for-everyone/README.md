@@ -1,10 +1,10 @@
 ---
-sort: 3
+title: 모두의 딥러닝 교실
+nav_order: 3
+has_children: true
 ---
 
 # 모두의 딥러닝 교실
-
-{% include list.liquid all=true %}
 
 
 

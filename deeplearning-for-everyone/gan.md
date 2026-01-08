@@ -1,5 +1,7 @@
 ---
-sort: 2
+title: 쉽게 이해하는 GAN
+parent: 모두의 딥러닝 교실
+nav_order: 2
 ---
 
 # 쉽게 이해하는 GAN

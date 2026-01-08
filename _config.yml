@@ -3,14 +3,20 @@ author: 조태호
 email: taehjo@gmail.com
 description: Deep learning Study, Deep learning in Science, Alphafold study
 
-#theme: minima
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
+
+url: https://taehojo.github.io
 
 readme_index:
   with_frontmatter: true
-  
+
 plugins:
-  - github-pages
+  - jekyll-seo-tag
+  - jekyll-readme-index
 
 # Google Analytics
 google_analytics: UA-204303332-1
+
+# just-the-docs settings
+color_scheme: light
+search_enabled: true

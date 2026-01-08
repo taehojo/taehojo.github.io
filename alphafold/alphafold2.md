@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 알파폴드2 모델 분석
 parent: 알파폴드 스터디
 nav_order: 2

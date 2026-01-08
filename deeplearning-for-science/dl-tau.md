@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 딥러닝 + 알츠하이머 원인 단백질 추적
 parent: 딥러닝 생명과학
 nav_order: 2

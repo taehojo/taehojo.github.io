@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 알파폴드 리뷰와 해석
 parent: 알파폴드 스터디
 nav_order: 1

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 모두의 딥러닝 교실
 nav_order: 3
 has_children: true

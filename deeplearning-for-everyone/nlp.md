@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 쉽게 이해하는 자연어 처리
 parent: 모두의 딥러닝 교실
 nav_order: 1

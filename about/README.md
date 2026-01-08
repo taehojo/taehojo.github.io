@@ -1,4 +1,5 @@
 ---
+layout: default
 title: ABOUT 조태호
 nav_order: 0
 ---

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 딥러닝 + 유전변이 예측
 parent: 딥러닝 생명과학
 nav_order: 3

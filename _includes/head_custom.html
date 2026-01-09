@@ -144,14 +144,22 @@ img {
   border-radius: 4px;
 }
 
-/* Figure captions */
-p strong:only-child {
-  display: block;
+/* Figure and figcaption */
+figure {
+  margin: 2rem 0;
+  padding: 0;
+}
+
+figure img {
+  margin: 0 auto 0.75rem auto;
+}
+
+figcaption {
   text-align: center;
   font-size: 0.9rem;
   color: #666;
-  margin-top: -1rem;
-  margin-bottom: 2rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
 }
 
 /* Blockquotes */
@@ -489,7 +497,7 @@ html {
 }
 
 #custom-blog-header .site-name img {
-  height: 28px;
+  height: 18px;
   width: auto;
   margin: 0 !important;
 }

@@ -17,10 +17,6 @@ nav_exclude: true
 {% for post in site.posts %}
 # {{ post.title }}
 
-{% if post.description %}
->{{ post.description }}
-{% endif %}
-
 {{ post.content }}
 
 <div class="post-end">

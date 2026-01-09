@@ -5,21 +5,21 @@ date: 2021-07-01
 description: "2021년 7월 15일, 네이처지에 발표된 알파폴드2 논문의 내용 중, 알파폴드2가 작동하는 흐름에 초점을 두고 요약되었습니다."
 ---
 
-> 2021년 7월 15일, 네이처지에 발표된 알파폴드2 논문의 내용 중, 알파폴드2가 작동하는 흐름에 초점을 두고 요약되었습니다.
-
 ## 알파폴드2의 작동 원리
 
-![Figure 1](/alphafold/images/image-a1.png)
-
-**Figure 1**. 알파폴드2의 model architecture
+<figure>
+<img src="/alphafold/images/image-a1.png" alt="Figure 1">
+<figcaption>Figure 1. 알파폴드2의 model architecture</figcaption>
+</figure>
 
 이 그림은 알파폴드2의 처리 과정을 한눈에 보여줍니다. 알파폴드2는 다음의 3가지 스텝으로 구성되어 있습니다. 먼저 입력 데이터를 전처리하는 Input feature embeddings(①) 단계, 어텐션 학습을 통해 전처리된 데이터에서 필요한 정보를 뽑아내는 Evoformer(②)단계, 그리고 여기서 나온 정보를 구체적인 3차원 좌표로 처리하는 Structure module(③)단계입니다.
 
 ## 1. Input feature embeddings
 
-![Figure 2](/alphafold/images/image-a2.png)
-
-**Figure 2**. Input feature embeddings
+<figure>
+<img src="/alphafold/images/image-a2.png" alt="Figure 2">
+<figcaption>Figure 2. Input feature embeddings</figcaption>
+</figure>
 
 알파폴드2의 첫 단계는 알파폴드1과 마찬가지로 입력 시퀀스를 전처리 하는 단계입니다. 먼저 유전자 데이터베이스에서 유사한 evolutionary 서열을 검색하여 다중 서열 정렬(MSA)을 생성합니다(①). 170,000개의 PDB 데이터, Uniprot의 대규모 데이터베이스를 이용했으며, JackHMMER와 HHblits를 이용해서 UniRef90, MGnify clusters, BFD를 검색하는 방식을 썼습니다.
 
@@ -29,9 +29,10 @@ description: "2021년 7월 15일, 네이처지에 발표된 알파폴드2 논문
 
 Pair representation과 MSA representation이 만들어지면 이 정보는 Evoformer단계로 넘어갑니다.
 
-![Figure 3](/alphafold/images/image-a3.png)
-
-**Figure 3**. Evoformer block
+<figure>
+<img src="/alphafold/images/image-a3.png" alt="Figure 3">
+<figcaption>Figure 3. Evoformer block</figcaption>
+</figure>
 
 주어진 Pair representation과 MSA representation을 개선하기 위해 어텐션 메커니즘의 48개 레이어로 구성된 deep tranformer-like 네트워크(①)가 적용되는 단계입니다. 48개의 모든 레이어에는 각각 개별 매개변수가 있으며 입력과 출력은 MSA representation과 Pair representation입니다.
 
@@ -41,9 +42,10 @@ Evoformer 안에는 두개의 흐름이 있는데, 하나는 MSA representation�
 
 Evoformer단계에서 만들어진 정보는 protein geometry의 구체적인 3차원 좌표로 변환하는 Structure module단계로 넘어옵니다.
 
-![Figure 4](/alphafold/images/image-a4.png)
-
-**Figure 4**. Structure Module
+<figure>
+<img src="/alphafold/images/image-a4.png" alt="Figure 4">
+<figcaption>Figure 4. Structure Module</figcaption>
+</figure>
 
 Evoformer가 가지고 있는 정보는 2D representation 형태로, 반드시 3차원 단백질 기하학으로 변환되어야 합니다. 이는 weight을 공유하는 8개의 RNN 블록에서 수행됩니다. Evoformer의 최종 MSA representation 정보와 Pair representation 정보가 사용되며, distances, torsions, atom coordinates, Cα-lDDT의 추정치를 예측하게 됩니다.
 

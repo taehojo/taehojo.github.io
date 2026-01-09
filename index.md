@@ -174,14 +174,16 @@ Invariant Point Attention 메커니즘에는 단백질 구조 개선을 위해 �
 <p class="post-date">2021년 7월</p>
 </div>
 
-<div class="site-footer-custom">
-<div class="footer-content">
-<p class="footer-author"><strong>조태호</strong> | 인디애나대학교 의과대학</p>
-<p class="footer-links">
-<a href="https://github.com/taehojo" target="_blank">GitHub</a> ·
-<a href="https://www.jolab.ai" target="_blank">JoLab.ai</a> ·
+<div class="author-box">
+<img src="/about/images/taehojo.png" alt="조태호" class="author-photo">
+<div class="author-info">
+<p class="author-name">조태호 (Taeho Jo, PhD)</p>
+<p class="author-title">인디애나대학교 의과대학 영상의학과 교수</p>
+<p class="author-bio">머신러닝과 딥러닝을 활용한 알츠하이머병 연구를 진행하고 있습니다. 베스트셀러 「모두의 딥러닝」 저자.</p>
+<p class="author-links">
+<a href="https://www.jolab.ai" target="_blank">JoLab.ai 연구실</a>
+<a href="https://github.com/taehojo" target="_blank">GitHub</a>
 <a href="mailto:taehjo@gmail.com">Email</a>
 </p>
-<p class="footer-copy">© 2024 Taeho Jo. All rights reserved.</p>
 </div>
 </div>

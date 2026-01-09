@@ -174,7 +174,7 @@ nav_exclude: true
 
 <div class="profile-section">
   <div class="profile-image">
-    <img src="./images/taehojo.png" alt="Taeho Jo" width="180">
+    <img src="https://avatars.githubusercontent.com/u/28382194?v=4" alt="Taeho Jo" width="180">
   </div>
   <div class="profile-intro">
     <h1>Taeho Jo, Ph.D.</h1>
@@ -303,13 +303,30 @@ nav_exclude: true
   <h2 style="margin: 0;">Publications - Research</h2>
 </div>
 
+**유전체 & AI**
+
 <ul class="paper-list">
-  <li>딥러닝을 이용한 알츠하이머병 원인 대사체 식별 <a href="https://github.com/taehojo/c-SWAT" target="_blank">[Code]</a> <a href="https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(23)00386-9/fulltext" target="_blank">[Paper]</a></li>
-  <li>딥러닝을 이용한 알츠하이머병 유전 변이 식별 <a href="https://github.com/taehojo/SWAT" target="_blank">[Code]</a> <a href="https://pubmed.ncbi.nlm.nih.gov/35183061/" target="_blank">[Paper]</a></li>
-  <li>딥러닝을 이용한 알츠하이머병 원인 단백질 추적 <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03848-0" target="_blank">[Paper]</a></li>
-  <li>딥러닝을 이용한 알츠하이머병 영상 진단 <a href="https://www.frontiersin.org/articles/10.3389/fnagi.2019.00220/full" target="_blank">[Paper]</a></li>
-  <li>딥러닝을 이용한 단백질 접힘 예측 <a href="https://www.nature.com/articles/srep17573" target="_blank">[Paper]</a></li>
-  <li>머신러닝을 이용한 단백질 접힘 예측 <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-15-S11-S14" target="_blank">[Paper]</a></li>
+  <li><strong>TrUE-Net</strong> - 트랜스포머 기반 알츠하이머 유전 변이 식별 <span class="book-year book-new">2025</span><br><span style="color: #6c757d; font-size: 0.85rem;">Briefings in Bioinformatics | 72.9% 정확도</span> <a href="https://github.com/taehojo/TrUE-Net" target="_blank">[Code]</a></li>
+  <li><strong>Deep-Block</strong> - 딥러닝 기반 LD 블록 유전 변이 분석 <span class="book-year book-new">2025</span><br><span style="color: #6c757d; font-size: 0.85rem;">Alzheimer's & Dementia TRCI | 30,218개 LD 블록 식별</span> <a href="https://github.com/taehojo/Deep-Block" target="_blank">[Code]</a></li>
+  <li><strong>SWAT-CNN</strong> - 슬라이딩 윈도우 기반 유전 변이 식별 <span class="book-year">2022</span><br><span style="color: #6c757d; font-size: 0.85rem;">Briefings in Bioinformatics | AUC 0.82</span> <a href="https://github.com/taehojo/SWAT" target="_blank">[Code]</a></li>
+</ul>
+
+**신경영상 & AI**
+
+<ul class="paper-list">
+  <li><strong>Tau PET 분류</strong> - 3D CNN 기반 타우 단백질 PET 영상 분류 <span class="book-year">2020</span><br><span style="color: #6c757d; font-size: 0.85rem;">BMC Bioinformatics | 90.8% 정확도</span></li>
+</ul>
+
+**단백질체 & AI**
+
+<ul class="paper-list">
+  <li><strong>종단 단백질체 분석</strong> - 알츠하이머 진행 예측 모델 <span class="book-year book-new">2025</span><br><span style="color: #6c757d; font-size: 0.85rem;">Alzheimer's & Dementia | AUC 0.848</span></li>
+</ul>
+
+**대사체 & AI**
+
+<ul class="paper-list">
+  <li><strong>c-SWAT</strong> - 대사체 기반 알츠하이머 바이오마커 식별 <span class="book-year">2023</span><br><span style="color: #6c757d; font-size: 0.85rem;">eBioMedicine (Lancet) | 80.8% 정확도</span> <a href="https://github.com/taehojo/c-SWAT" target="_blank">[Code]</a></li>
 </ul>
 
 <p style="text-align: center; margin-top: 2rem; color: #999;">

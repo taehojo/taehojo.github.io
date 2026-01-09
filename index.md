@@ -47,3 +47,5 @@ nav_exclude: true
 </div>
 
 <p class="write-link"><a href="/guide/">write</a></p>
+
+<p class="copyright">© 2025 Taeho Jo. All rights reserved.</p>

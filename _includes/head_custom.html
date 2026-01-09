@@ -35,33 +35,44 @@
 /* Body styling */
 body {
   font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif !important;
-  background-color: #fff;
+  background: linear-gradient(135deg, #f5f7fa 0%, #f8f9fb 50%, #f0f4f8 100%);
+  background-attachment: fixed;
   color: #222;
   line-height: 1.8;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
-/* Custom Header */
-body::before {
+/* Decorative side elements */
+body::after {
   content: '';
-  display: block;
-  width: 100%;
-  height: 60px;
-  background: #fff;
-  border-bottom: 1px solid #e0e0e0;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
+  right: 0;
+  bottom: 0;
+  background:
+    linear-gradient(90deg,
+      rgba(26,115,232,0.03) 0%,
+      transparent 15%,
+      transparent 85%,
+      rgba(26,115,232,0.03) 100%
+    );
+  pointer-events: none;
+  z-index: 0;
 }
 
 /* Main Content */
 .main-content {
   max-width: 800px !important;
   margin: 100px auto 60px auto !important;
-  padding: 0 20px !important;
+  padding: 40px 50px !important;
   background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06), 0 1px 3px rgba(0,0,0,0.04);
+  position: relative;
+  z-index: 1;
 }
 
 /* Blog Title */
@@ -242,8 +253,9 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
   .main-content {
-    margin-top: 80px !important;
-    padding: 0 15px !important;
+    margin: 70px 10px 40px 10px !important;
+    padding: 25px 20px !important;
+    border-radius: 8px;
   }
 
   h1:first-of-type {
@@ -416,8 +428,11 @@ html {
   left: 0;
   right: 0;
   height: 60px;
-  background: #fff;
-  border-bottom: 1px solid #e0e0e0;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   display: flex;
   align-items: center;
   justify-content: center;

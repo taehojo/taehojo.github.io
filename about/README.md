@@ -180,7 +180,7 @@ nav_exclude: true
     <h1>Taeho Jo, Ph.D.</h1>
     <h1 style="font-size: 1.5rem; color: #666; margin-top: 0;">조태호</h1>
     <span class="title-badge">Assistant Professor, Indiana University School of Medicine</span>
-    <p>머신러닝과 딥러닝을 활용하여 <strong>알츠하이머병의 조기 진단</strong>을 연구합니다.<br>연구와 함께 IT 서적을 집필하며 지식을 나누고 있습니다.</p>
+    <p>AI/딥러닝을 활용하여 <strong>알츠하이머병의 조기 진단</strong>을 연구합니다.<br>연구와 함께 IT 서적을 집필하며 지식을 나누고 있습니다.</p>
     <div class="contact-links">
       <a href="https://www.jolab.ai" target="_blank">🔬 JoLab.ai</a>
       <a href="https://github.com/taehojo" target="_blank">💻 GitHub</a>
@@ -222,6 +222,16 @@ nav_exclude: true
       <span class="tool-tag">Biomarker</span>
     </div>
   </div>
+  <div class="research-card">
+    <h4>Precision Medicine</h4>
+    <p>유전체, 신경영상, 대사체학을 AI와 통합하여 질병 진행을 정밀하게 예측하고, 개인 맞춤형 조기 진단을 개발합니다.</p>
+    <div class="tool-tags">
+      <span class="tool-tag">BIBio</span>
+      <span class="tool-tag">AAIC25</span>
+      <span class="tool-tag">AAIC23</span>
+      <span class="tool-tag">TRCI</span>
+    </div>
+  </div>
 </div>
 
 <div class="section-title">
@@ -251,7 +261,6 @@ nav_exclude: true
     <strong>모두의 딥러닝</strong> 개정3판 <span class="book-year">2022</span>
     <div class="book-links">
       <a href="https://github.com/taehojo/deeplearning" target="_blank">Code</a>
-      <a href="https://taehojo.github.io/book/deeplearning-20231129.pdf" target="_blank">Errata</a>
       <a href="http://www.yes24.com/Product/Goods/108553440" target="_blank">Book</a>
     </div>
   </li>

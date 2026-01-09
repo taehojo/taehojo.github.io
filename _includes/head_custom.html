@@ -463,15 +463,32 @@ html {
 }
 
 #custom-blog-header .site-name {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   text-decoration: none;
 }
 
-#custom-blog-header .site-name:hover {
-  text-decoration: none;
-  color: #1a73e8;
+#custom-blog-header .site-name img {
+  height: 28px;
+  width: auto;
+  margin: 0 !important;
+}
+
+#custom-blog-header .site-name .blog-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #1a73e8 0%, #4a9eff 100%);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 4px rgba(26,115,232,0.3);
+}
+
+#custom-blog-header .site-name:hover .blog-badge {
+  background: linear-gradient(135deg, #1557b0 0%, #1a73e8 100%);
 }
 
 #custom-blog-header nav {

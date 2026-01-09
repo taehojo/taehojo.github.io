@@ -2,6 +2,7 @@
 layout: default
 title: 글쓰기 가이드
 nav_exclude: true
+permalink: /guide/
 ---
 
 <div id="custom-blog-header">
@@ -9,7 +10,6 @@ nav_exclude: true
     <a href="/" class="site-name"><img src="/logo.png" alt="AI & Life Science"><span class="blog-badge">blog</span></a>
     <nav>
       <a href="/about/">About Taeho Jo</a>
-      <a href="/guide/">글쓰기</a>
       <a href="https://www.jolab.ai" target="_blank">JoLab.ai</a>
     </nav>
   </div>

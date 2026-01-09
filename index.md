@@ -9,7 +9,6 @@ nav_exclude: true
     <a href="/" class="site-name"><img src="/logo.png" alt="AI & Life Science"><span class="blog-badge">blog</span></a>
     <nav>
       <a href="/about/">About Taeho Jo</a>
-      <a href="/guide/">글쓰기</a>
       <a href="https://www.jolab.ai" target="_blank">JoLab.ai</a>
     </nav>
   </div>
@@ -50,3 +49,5 @@ nav_exclude: true
 </p>
 </div>
 </div>
+
+<p class="write-link"><a href="/guide/">write</a></p>

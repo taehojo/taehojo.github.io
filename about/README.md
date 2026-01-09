@@ -226,10 +226,7 @@ nav_exclude: true
     <h4>Precision Medicine</h4>
     <p>유전체, 신경영상, 대사체학을 AI와 통합하여 질병 진행을 정밀하게 예측하고, 개인 맞춤형 조기 진단을 개발합니다.</p>
     <div class="tool-tags">
-      <span class="tool-tag">BIBio</span>
-      <span class="tool-tag">AAIC25</span>
-      <span class="tool-tag">AAIC23</span>
-      <span class="tool-tag">TRCI</span>
+      <span class="tool-tag">DuAL-Net</span>
     </div>
   </div>
 </div>

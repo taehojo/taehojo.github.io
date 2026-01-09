@@ -6,7 +6,7 @@ nav_exclude: true
 
 <div id="custom-blog-header">
   <div class="header-inner">
-    <a href="/" class="site-name">Deep Learning & Life Science</a>
+    <a href="/" class="site-name">AI & Life Science Blog</a>
     <nav>
       <a href="/about/">About Taeho Jo</a>
       <a href="https://www.jolab.ai" target="_blank">JoLab.ai</a>

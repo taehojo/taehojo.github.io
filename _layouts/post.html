@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div id="custom-blog-header">
+  <div class="header-inner">
+    <a href="/" class="site-name">AI & Life Science Blog</a>
+    <nav>
+      <a href="/about/">About Taeho Jo</a>
+      <a href="https://www.jolab.ai" target="_blank">JoLab.ai</a>
+    </nav>
+  </div>
+</div>
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<div class="post-end">
+<p class="post-date">{{ page.date | date: "%Y년 %-m월" }}</p>
+</div>

@@ -95,15 +95,9 @@ Invariant Point Attention 메커니즘에는 단백질 구조 개선을 위해 �
 
 <br/>
 
-**조태호** (인디애나대학교 의과대학)
-
-[![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
-[![Facebook](https://img.shields.io/badge/facebook-taehojo-blue)](https://facebook.com/taehojo)
-[![IU](https://img.shields.io/badge/IU-medicine-red)](https://medicine.iu.edu/faculty/41882/jo-taeho)
-<br/>
-<br/>
-
 ----
 
 [^1]: https://www.nature.com/articles/s41586-021-03819-2
+
+{% include author-footer.html %}
 

@@ -244,14 +244,7 @@ Progress will be made in deep learning by overcoming these issues while presenti
 
 AD research using deep learning is still evolving to achieve better performance and transparency. As multimodal neuroimaging data and computer resources grow rapidly, research on the diagnostic classification of AD using deep learning is shifting toward a model that uses only deep learning algorithms rather than hybrid methods, although methods need to be developed to integrate completely different formats of data in a deep learning network.
 
-<br/>**조태호** (인디애나대학교 의과대학)
-
-[![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
-[![Facebook](https://img.shields.io/badge/facebook-taehojo-blue)](https://facebook.com/taehojo)
-[![IU](https://img.shields.io/badge/IU-medicine-red)](https://medicine.iu.edu/faculty/41882/jo-taeho)
-<br/><br/>
-
-> 이 글은 2019년 8월 20일, Frontiers in Aging Neuroscience에 게재된  **Taeho Jo et al. Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data** 논문을 옮긴 것입니다. 
+> 이 글은 2019년 8월 20일, Frontiers in Aging Neuroscience에 게재된  **Taeho Jo et al. Deep learning in Alzheimer's disease: diagnostic classification and prognostic prediction using neuroimaging data** 논문을 옮긴 것입니다.
 >
 > <details>
 > <summary>논문 인용 하기 </summary>
@@ -262,4 +255,6 @@ AD research using deep learning is still evolving to achieve better performance 
 [논문 바로가기](https://www.frontiersin.org/articles/10.3389/fnagi.2019.00220/full)
 
 <br/>
+
+{% include author-footer.html %}
 

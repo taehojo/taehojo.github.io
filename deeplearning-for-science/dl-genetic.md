@@ -197,15 +197,10 @@ In summary, our novel deep learning-based approach can identify AD-related SNPs 
 
  
 
-<br/>**조태호** (인디애나대학교 의과대학)
-
-[![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
-[![Facebook](https://img.shields.io/badge/facebook-taehojo-blue)](https://facebook.com/taehojo)
-[![IU](https://img.shields.io/badge/IU-medicine-red)](https://medicine.iu.edu/faculty/41882/jo-taeho)
-<br/><br/>
-
-> 이 글은 2021년 7월 22일, medRxiv에 업로드된  **Taeho Jo et al. Deep learning-based identification of genetic variants: Application to Alzheimer’s disease classification** 논문을 옮긴 것입니다.   
+> 이 글은 2021년 7월 22일, medRxiv에 업로드된  **Taeho Jo et al. Deep learning-based identification of genetic variants: Application to Alzheimer's disease classification** 논문을 옮긴 것입니다.
 
 [논문 바로가기](https://www.medrxiv.org/content/10.1101/2021.07.19.21260789v1)
 
-<br/><br/>
+<br/>
+
+{% include author-footer.html %}

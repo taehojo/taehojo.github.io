@@ -199,23 +199,16 @@ Early, accurate and efficient diagnosis of AD is important for initiation of eff
 
 Deep learning can be used to classify tau PET images from AD patients versus controls. Furthermore, this classifier can score the tau distribution by its similarity to AD when applied to scans from older individuals with MCI. A deep learning derived AD-like tau deposition pattern may be useful for early detection of disease during the prodromal or possibly even preclinical stages of AD on an individual basis. Advances in predictive modeling are needed to develop accurate precision medicine tools for AD and related neurodegenerative disorders, and further developments can be expected with inclusion of multi-modality data sets and larger samples.
 
-<br/>**조태호** (인디애나대학교 의과대학)
-
-[![Github](https://img.shields.io/badge/github-taehojo-yellowgreen)](https://github.com/taehojo)
-[![Facebook](https://img.shields.io/badge/facebook-taehojo-blue)](https://facebook.com/taehojo)
-[![IU](https://img.shields.io/badge/IU-medicine-red)](https://medicine.iu.edu/faculty/41882/jo-taeho)
-<br/>
-
-<br/>
-
-> 이 글은 2020년 12월 28일, BMC Bioinformatics에 게재된  **Taeho Jo et al. Deep learning detection of informative features in tau PET for Alzheimer’s disease classification** 논문을 옮긴 것입니다. 
+> 이 글은 2020년 12월 28일, BMC Bioinformatics에 게재된  **Taeho Jo et al. Deep learning detection of informative features in tau PET for Alzheimer's disease classification** 논문을 옮긴 것입니다.
 >
 > <details>
 > <summary>논문 인용 하기</summary>
 > <br>
-> Jo, Taeho, et al. "Deep learning detection of informative features in tau PET for Alzheimer’s disease classification." BMC bioinformatics 21.21 (2020): 1-13.
+> Jo, Taeho, et al. "Deep learning detection of informative features in tau PET for Alzheimer's disease classification." BMC bioinformatics 21.21 (2020): 1-13.
 > </details>
 
 [논문 바로가기](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03848-0)
 
 <br/>
+
+{% include author-footer.html %}

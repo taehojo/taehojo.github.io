@@ -317,3 +317,5 @@ Cβ-Cβ의 거리와 함께 '각도'를 잴 수 있다는 것도 생각을 못�
 [^11]: Jo, Taeho, et al. \"Improving protein fold recognition by deep learning networks.\" Scientific reports 5.1 (2015): 1-11.
 
 <br/>
+
+{% include author-footer.html %}

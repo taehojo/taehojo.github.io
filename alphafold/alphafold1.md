@@ -4,6 +4,17 @@ title: 알파폴드 리뷰와 해석
 parent: 알파폴드 스터디
 nav_order: 1
 ---
+
+<div id="custom-blog-header">
+  <div class="header-inner">
+    <a href="/" class="site-name"><img src="/logo.png" alt="AI & Life Science"><span class="blog-badge">blog</span></a>
+    <nav>
+      <a href="/about/">About Taeho Jo</a>
+      <a href="https://www.jolab.ai" target="_blank">JoLab.ai</a>
+    </nav>
+  </div>
+</div>
+
 # 알파폴드 리뷰와 해석
 
 <br/>

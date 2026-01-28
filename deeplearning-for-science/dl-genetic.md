@@ -5,6 +5,16 @@ parent: 딥러닝 생명과학
 nav_order: 3
 ---
 
+<div id="custom-blog-header">
+  <div class="header-inner">
+    <a href="/" class="site-name"><img src="/logo.png" alt="AI & Life Science"><span class="blog-badge">blog</span></a>
+    <nav>
+      <a href="/about/">About Taeho Jo</a>
+      <a href="https://www.jolab.ai" target="_blank">JoLab.ai</a>
+    </nav>
+  </div>
+</div>
+
 # 딥러닝 + 유전변이 예측
 
 <br/>

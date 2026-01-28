@@ -5,6 +5,16 @@ parent: 모두의 딥러닝 교실
 nav_order: 3
 ---
 
+<div id="custom-blog-header">
+  <div class="header-inner">
+    <a href="/" class="site-name"><img src="/logo.png" alt="AI & Life Science"><span class="blog-badge">blog</span></a>
+    <nav>
+      <a href="/about/">About Taeho Jo</a>
+      <a href="https://www.jolab.ai" target="_blank">JoLab.ai</a>
+    </nav>
+  </div>
+</div>
+
 # 쉽게 이해하는 오토인코더
 
  [![Youtube](https://img.shields.io/youtube/channel/views/UC_LvgzB44dGRvOcQqMzdT4g?label=%EB%8F%99%EC%98%81%EC%83%81%20%EA%B0%95%EC%9D%98&style=social)](https://bit.ly/taehojo)
